@@ -1,25 +1,32 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Nilkamal Furniture in Thane | SHREE SHIVSHAKTI ENTERPRISES</title>  <meta name="description" content="Explore quality Nilkamal furniture in Thane from SHREE SHIVSHAKTI ENTERPRISES. Browse Nilkamal chairs, plastic furniture, stools, cabinets, tables and folding furniture for home, office, commercial and bulk requirements.">  <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#eef4ff">  <link rel="canonical" href="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/">  <meta property="og:type" content="website">
-  <meta property="og:title" content="Nilkamal Furniture in Thane | SHREE SHIVSHAKTI ENTERPRISES">
-  <meta property="og:description" content="Shop Nilkamal chairs, furniture, stools, cabinets, tables and more in Thane. Retail and bulk enquiries available.">
-  <meta property="og:url" content="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/">  <style>
+  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Nilkamal Furniture in Thane | SHREE SHIVSHAKTI ENTERPRISES</title>  <meta name="description" content="Explore quality Nilkamal furniture in Thane from SHREE SHIVSHAKTI ENTERPRISES. Browse Nilkamal chairs, stools, cabinets, tables, plastic furniture and steel furniture for home, office, commercial and bulk requirements.">  <meta name="keywords" content="Nilkamal furniture Thane, Nilkamal chair Thane, Nilkamal plastic chair, Nilkamal cabinet, Nilkamal stool, furniture store Thane, furniture store Manpada, furniture Ghodbunder Road, furniture Patlipada">  <meta name="robots" content="index, follow">  <link rel="canonical" href="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/">  <meta property="og:title" content="Nilkamal Furniture in Thane | SHREE SHIVSHAKTI ENTERPRISES">
+  <meta property="og:description" content="Shop Nilkamal furniture, chairs, stools, cabinets, tables and more in Thane. Retail and bulk enquiries available.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/">  <meta name="theme-color" content="#2563eb">  <style>
     :root {
-      --blue: #2563eb;
-      --blue-dark: #1746b8;
-      --purple: #7c3aed;
-      --pink: #ec4899;
-      --orange: #f97316;
-      --yellow: #facc15;
-      --green: #16a34a;
-      --red: #ef4444;
-      --text: #172033;
-      --muted: #667085;
-      --bg: #f5f8ff;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --primary-soft: #eff6ff;
+
+      --text: #111827;
+      --muted: #64748b;
+
+      --bg: #f7f9fc;
       --card: #ffffff;
-      --border: #e4e9f2;
+      --border: #e5eaf1;
+
+      --green: #16a34a;
+      --green-soft: #ecfdf3;
+
+      --orange: #f59e0b;
+      --orange-soft: #fff7ed;
+
+      --purple: #7c3aed;
+      --purple-soft: #f5f3ff;
+
+      --radius: 20px;
+      --shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
     }
 
     * {
@@ -41,6 +48,7 @@
         Roboto,
         Arial,
         sans-serif;
+
       background: var(--bg);
       color: var(--text);
       line-height: 1.5;
@@ -61,856 +69,1033 @@
     }
 
     .container {
-      width: min(1140px, calc(100% - 28px));
+      width: min(1160px, calc(100% - 32px));
       margin: auto;
     }
 
-    /* =========================
-       HEADER
-    ========================= */
+    /* ================= HEADER ================= */
 
     .header {
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: rgba(245, 248, 255, .88);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(37, 99, 235, .08);
+
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+
+      border-bottom: 1px solid rgba(226, 232, 240, 0.8);
     }
 
     .nav {
       min-height: 70px;
+
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 15px;
+
+      gap: 20px;
     }
 
     .brand {
       display: flex;
       align-items: center;
-      gap: 10px;
-      font-size: 15px;
-      font-weight: 900;
-      letter-spacing: -.4px;
+      gap: 11px;
+      min-width: 0;
     }
 
     .brand-logo {
-      width: 39px;
-      height: 39px;
+      width: 42px;
+      height: 42px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 13px;
+
+      background: var(--primary);
+      color: #fff;
+
+      font-size: 18px;
+      font-weight: 800;
+
+      box-shadow: 0 5px 16px rgba(37, 99, 235, 0.22);
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .brand-name {
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
+    }
+
+    .brand-sub {
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 1px;
+    }
+
+    .nav-links {
       display: flex;
       align-items: center;
-      justify-content: center;
-      border-radius: 13px;
-      background: linear-gradient(135deg, var(--blue), var(--purple));
-      color: #fff;
-      font-size: 17px;
-      box-shadow: 0 7px 18px rgba(37, 99, 235, .22);
+      gap: 7px;
     }
 
-    .brand-text span {
-      display: block;
-      color: var(--blue);
-      font-size: 10px;
-      font-weight: 800;
-      margin-top: 2px;
-      letter-spacing: .2px;
+    .nav-links a {
+      padding: 9px 13px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #475569;
+      transition: 0.2s ease;
     }
 
-    .nav-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--blue);
-      color: #fff;
-      padding: 11px 17px;
-      border-radius: 13px;
-      font-size: 12px;
-      font-weight: 800;
-      box-shadow: 0 6px 16px rgba(37, 99, 235, .2);
-      transition: .2s ease;
+    .nav-links a:hover {
+      background: var(--primary-soft);
+      color: var(--primary);
     }
 
-    .nav-btn:hover {
-      background: var(--blue-dark);
-      transform: translateY(-1px);
+    .nav-cta {
+      background: var(--primary) !important;
+      color: white !important;
     }
 
-    /* =========================
-       HERO
-    ========================= */
+    /* ================= HERO ================= */
 
     .hero {
-      padding: 42px 0 24px;
+      padding: 52px 0 30px;
     }
 
     .hero-box {
       position: relative;
       overflow: hidden;
-      border-radius: 30px;
-      padding: 46px;
-      color: #fff;
-      background:
-        radial-gradient(circle at 85% 20%, rgba(236,72,153,.65), transparent 25%),
-        radial-gradient(circle at 70% 100%, rgba(250,204,21,.45), transparent 28%),
-        linear-gradient(135deg, #2563eb 0%, #5b21b6 55%, #7c3aed 100%);
-      box-shadow: 0 20px 50px rgba(54, 77, 180, .20);
-    }
 
-    .hero-box::before {
-      content: "";
-      position: absolute;
-      width: 190px;
-      height: 190px;
-      right: -70px;
-      top: -70px;
-      border-radius: 50%;
-      background: rgba(255,255,255,.10);
+      border-radius: 28px;
+
+      padding: 48px;
+
+      background:
+        linear-gradient(
+          115deg,
+          #eff6ff 0%,
+          #ffffff 55%,
+          #f5f3ff 100%
+        );
+
+      border: 1px solid #dfe8f5;
     }
 
     .hero-box::after {
       content: "";
+
       position: absolute;
-      width: 130px;
-      height: 130px;
-      right: 130px;
-      bottom: -70px;
+
+      width: 250px;
+      height: 250px;
+
+      right: -100px;
+      top: -100px;
+
       border-radius: 50%;
-      background: rgba(255,255,255,.08);
+
+      background: rgba(37, 99, 235, 0.07);
     }
 
     .hero-content {
       position: relative;
-      z-index: 2;
-      max-width: 720px;
+      z-index: 1;
+
+      max-width: 730px;
     }
 
-    .eyebrow {
+    .hero-label {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 7px 11px;
+      gap: 7px;
+
+      padding: 7px 12px;
+
       border-radius: 999px;
-      background: rgba(255,255,255,.16);
-      border: 1px solid rgba(255,255,255,.20);
-      font-size: 10px;
-      font-weight: 850;
-      letter-spacing: .5px;
+
+      background: #fff;
+      border: 1px solid #dbeafe;
+
+      color: var(--primary);
+
+      font-size: 12px;
+      font-weight: 700;
+
       margin-bottom: 17px;
     }
 
+    .hero-label span {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
     .hero h1 {
-      font-size: clamp(36px, 6vw, 62px);
-      line-height: 1.02;
-      letter-spacing: -2.8px;
-      margin-bottom: 18px;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.08;
+      letter-spacing: -1.5px;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 strong {
+      color: var(--primary);
     }
 
     .hero-description {
-      max-width: 680px;
-      color: rgba(255,255,255,.88);
-      font-size: 15px;
+      max-width: 650px;
+
+      color: #526174;
+
+      font-size: 16px;
       line-height: 1.7;
+
+      margin-bottom: 25px;
     }
 
     .hero-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 27px;
+      gap: 11px;
     }
 
     .btn {
-      min-height: 46px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      gap: 8px;
+
+      min-height: 46px;
+
       padding: 0 18px;
-      border-radius: 14px;
-      font-size: 12px;
-      font-weight: 850;
-      transition: .2s ease;
+
+      border-radius: 12px;
+
+      font-size: 14px;
+      font-weight: 700;
+
+      border: 1px solid transparent;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
     }
 
     .btn:hover {
-      transform: translateY(-2px);
+      transform: translateY(-1px);
     }
 
-    .btn-white {
-      background: #fff;
-      color: var(--blue);
-      box-shadow: 0 8px 20px rgba(0,0,0,.10);
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+
+      box-shadow: 0 7px 18px rgba(37, 99, 235, 0.18);
     }
 
-    .btn-whatsapp {
-      background: #20c766;
-      color: #fff;
-      box-shadow: 0 8px 20px rgba(0,0,0,.12);
+    .btn-primary:hover {
+      background: var(--primary-dark);
     }
 
-    /* =========================
-       QUICK INFO
-    ========================= */
+    .btn-light {
+      background: white;
+      border-color: #dce4ef;
+      color: #334155;
+    }
+
+    /* ================= QUICK INFO ================= */
 
     .quick-info {
-      margin-top: 13px;
+      padding: 12px 0 18px;
+    }
+
+    .quick-grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
     }
 
-    .info-card {
-      background: #fff;
+    .quick-card {
+      background: var(--card);
+
       border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 17px;
-      box-shadow: 0 7px 22px rgba(32, 52, 100, .04);
-    }
 
-    .info-icon {
-      width: 32px;
-      height: 32px;
+      border-radius: 17px;
+
+      padding: 18px;
+
       display: flex;
       align-items: center;
-      justify-content: center;
-      border-radius: 10px;
-      margin-bottom: 10px;
-      font-size: 15px;
+      gap: 13px;
+
+      box-shadow: var(--shadow);
     }
 
-    .icon-blue {
-      background: #e7efff;
-      color: var(--blue);
+    .quick-icon {
+      width: 42px;
+      height: 42px;
+
+      flex: 0 0 42px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 12px;
+
+      font-size: 19px;
+      font-weight: 700;
     }
 
-    .icon-green {
-      background: #e6f9ed;
+    .quick-icon.blue {
+      background: var(--primary-soft);
+      color: var(--primary);
+    }
+
+    .quick-icon.green {
+      background: var(--green-soft);
       color: var(--green);
     }
 
-    .icon-orange {
-      background: #fff0e7;
+    .quick-icon.orange {
+      background: var(--orange-soft);
       color: var(--orange);
     }
 
-    .icon-purple {
-      background: #f0e9ff;
-      color: var(--purple);
+    .quick-card h3 {
+      font-size: 14px;
+      margin-bottom: 2px;
     }
 
-    .info-card strong {
-      display: block;
+    .quick-card p {
       font-size: 12px;
-      margin-bottom: 3px;
-    }
-
-    .info-card span {
       color: var(--muted);
-      font-size: 10px;
     }
 
-    /* =========================
-       SECTION
-    ========================= */
+    /* ================= SECTION ================= */
 
     .section {
-      padding: 55px 0 0;
+      padding: 42px 0;
     }
 
-    .section-heading {
+    .section-header {
       display: flex;
       align-items: end;
       justify-content: space-between;
       gap: 20px;
-      margin-bottom: 19px;
+
+      margin-bottom: 20px;
     }
 
-    .section-heading h2 {
+    .section-title {
       font-size: 27px;
-      line-height: 1.1;
-      letter-spacing: -1.2px;
+      letter-spacing: -0.5px;
     }
 
-    .section-heading p {
-      max-width: 470px;
+    .section-subtitle {
       color: var(--muted);
-      text-align: right;
-      font-size: 12px;
+      font-size: 14px;
+      margin-top: 5px;
     }
 
-    /* =========================
-       CATEGORIES
-    ========================= */
+    .view-all {
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
 
-    .category-grid {
+    /* ================= PRODUCT CATEGORY SCROLL ================= */
+
+    .category-scroll {
+      display: flex;
+      gap: 16px;
+
+      overflow-x: auto;
+
+      padding: 3px 2px 12px;
+
+      scroll-snap-type: x mandatory;
+
+      scrollbar-width: none;
+    }
+
+    .category-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .category-card {
+      position: relative;
+
+      flex: 0 0 300px;
+
+      height: 205px;
+
+      overflow: hidden;
+
+      border-radius: 21px;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      scroll-snap-align: start;
+
+      box-shadow: var(--shadow);
+
+      transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease;
+    }
+
+    .category-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 35px rgba(15, 23, 42, 0.1);
+    }
+
+    .category-card img {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+
+      background: #f1f5f9;
+
+      transition: transform 0.35s ease;
+    }
+
+    .category-card:hover img {
+      transform: scale(1.035);
+    }
+
+    .category-overlay {
+      position: absolute;
+
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      padding: 42px 17px 17px;
+
+      background:
+        linear-gradient(
+          transparent,
+          rgba(15, 23, 42, 0.78)
+        );
+
+      color: white;
+    }
+
+    .category-overlay h3 {
+      font-size: 21px;
+      margin-bottom: 2px;
+    }
+
+    .category-overlay p {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+
+    .category-arrow {
+      position: absolute;
+
+      right: 15px;
+      bottom: 16px;
+
+      width: 32px;
+      height: 32px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: rgba(255, 255, 255, 0.92);
+
+      color: var(--primary);
+
+      font-weight: 800;
+    }
+
+    /* ================= SHOP ================= */
+
+    .shop-box {
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 23px;
+
+      padding: 26px;
+
+      box-shadow: var(--shadow);
+    }
+
+    .shop-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 13px;
     }
 
-    .category-card {
-      position: relative;
-      overflow: hidden;
-      min-height: 180px;
-      padding: 22px;
-      border-radius: 22px;
-      color: #fff;
-      box-shadow: 0 10px 27px rgba(32, 52, 100, .10);
-      transition: .22s ease;
+    .shop-item {
+      padding: 18px;
+
+      border-radius: 15px;
+
+      border: 1px solid #e6ebf2;
+
+      background: #fbfcfe;
+
+      transition: 0.2s ease;
     }
 
-    .category-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 16px 34px rgba(32, 52, 100, .16);
+    .shop-item:hover {
+      border-color: #bfdbfe;
+      background: #f8fbff;
     }
 
-    .category-card::after {
-      content: "";
-      position: absolute;
-      width: 120px;
-      height: 120px;
-      right: -35px;
-      bottom: -45px;
-      border-radius: 50%;
-      background: rgba(255,255,255,.13);
-    }
+    .shop-item-icon {
+      width: 37px;
+      height: 37px;
 
-    .cat-blue {
-      background: linear-gradient(135deg, #2563eb, #3b82f6);
-    }
-
-    .cat-purple {
-      background: linear-gradient(135deg, #7c3aed, #a855f7);
-    }
-
-    .cat-orange {
-      background: linear-gradient(135deg, #ea580c, #f97316);
-    }
-
-    .cat-pink {
-      background: linear-gradient(135deg, #db2777, #ec4899);
-    }
-
-    .category-number {
-      font-size: 10px;
-      font-weight: 900;
-      opacity: .75;
-    }
-
-    .category-content {
-      position: absolute;
-      left: 22px;
-      right: 22px;
-      bottom: 20px;
-      z-index: 2;
-    }
-
-    .category-card h3 {
-      font-size: 18px;
-      line-height: 1.15;
-      letter-spacing: -.5px;
-    }
-
-    .category-card p {
-      margin-top: 5px;
-      color: rgba(255,255,255,.82);
-      font-size: 10px;
-    }
-
-    .category-arrow {
-      position: absolute;
-      top: 18px;
-      right: 18px;
-      width: 31px;
-      height: 31px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: rgba(255,255,255,.18);
-      border: 1px solid rgba(255,255,255,.15);
-      border-radius: 50%;
-      font-size: 15px;
-      z-index: 3;
-    }
-
-    /* =========================
-       ABOUT
-    ========================= */
-
-    .about-box {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 25px;
-      padding: 31px;
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 25px;
-      box-shadow: 0 8px 28px rgba(32, 52, 100, .04);
+      place-items: center;
+
+      border-radius: 10px;
+
+      background: var(--primary-soft);
+      color: var(--primary);
+
+      font-weight: 800;
+
+      margin-bottom: 11px;
     }
 
-    .about-box h2 {
-      font-size: 29px;
-      line-height: 1.12;
-      letter-spacing: -1.2px;
-      margin-bottom: 13px;
-    }
-
-    .about-box > div > p {
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.75;
-    }
-
-    .about-points {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 9px;
-    }
-
-    .about-point {
-      padding: 16px;
-      border-radius: 16px;
-      background: #f7f9fd;
-      border: 1px solid #edf0f6;
-    }
-
-    .about-point:nth-child(1) {
-      border-top: 3px solid var(--blue);
-    }
-
-    .about-point:nth-child(2) {
-      border-top: 3px solid var(--purple);
-    }
-
-    .about-point:nth-child(3) {
-      border-top: 3px solid var(--orange);
-    }
-
-    .about-point:nth-child(4) {
-      border-top: 3px solid var(--green);
-    }
-
-    .about-point strong {
-      display: block;
-      font-size: 12px;
+    .shop-item h3 {
+      font-size: 14px;
       margin-bottom: 4px;
     }
 
-    .about-point span {
+    .shop-item p {
       color: var(--muted);
-      font-size: 10px;
-    }
-
-    /* =========================
-       REVIEWS
-    ========================= */
-
-    .review-box {
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 25px;
-      padding: 32px;
-      border-radius: 25px;
-      color: #fff;
-      background:
-        radial-gradient(circle at 90% 30%, rgba(250,204,21,.35), transparent 22%),
-        linear-gradient(135deg, #111827, #312e81);
-      box-shadow: 0 12px 30px rgba(49, 46, 129, .16);
-    }
-
-    .review-stars {
-      color: #facc15;
-      font-size: 20px;
-      letter-spacing: 2px;
-      margin-bottom: 7px;
-    }
-
-    .review-box h2 {
-      font-size: 27px;
-      letter-spacing: -1px;
-    }
-
-    .review-box p {
-      color: #c8cad2;
       font-size: 12px;
-      margin-top: 5px;
+      line-height: 1.5;
     }
 
-    .review-btn {
-      flex-shrink: 0;
-      padding: 13px 17px;
-      border-radius: 13px;
-      background: #fff;
-      color: #312e81;
-      font-size: 11px;
-      font-weight: 850;
+    /* ================= ABOUT ================= */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 20px;
+      align-items: stretch;
     }
 
-    /* =========================
-       LOCATIONS
-    ========================= */
+    .about-card,
+    .trust-card {
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 22px;
+
+      padding: 28px;
+
+      box-shadow: var(--shadow);
+    }
+
+    .about-card h2,
+    .trust-card h2 {
+      font-size: 24px;
+      margin-bottom: 11px;
+    }
+
+    .about-card p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .about-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 19px;
+    }
+
+    .about-list div {
+      display: flex;
+      gap: 9px;
+
+      color: #475569;
+
+      font-size: 13px;
+    }
+
+    .check {
+      color: var(--green);
+      font-weight: 900;
+    }
+
+    .trust-items {
+      display: grid;
+      gap: 11px;
+    }
+
+    .trust-item {
+      padding: 14px;
+
+      border-radius: 14px;
+
+      background: #f8fafc;
+
+      border: 1px solid #edf1f5;
+    }
+
+    .trust-item strong {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+
+    .trust-item span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* ================= REVIEWS ================= */
+
+    .review-section {
+      background: #f1f6ff;
+
+      border-top: 1px solid #e1ebfa;
+      border-bottom: 1px solid #e1ebfa;
+    }
+
+    .review-card {
+      max-width: 760px;
+
+      margin: auto;
+
+      background: white;
+
+      border: 1px solid #dce7f5;
+
+      border-radius: 22px;
+
+      padding: 28px;
+
+      text-align: center;
+
+      box-shadow: var(--shadow);
+    }
+
+    .google-badge {
+      width: 48px;
+      height: 48px;
+
+      display: grid;
+      place-items: center;
+
+      margin: 0 auto 12px;
+
+      border-radius: 14px;
+
+      background: var(--primary-soft);
+
+      color: var(--primary);
+
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    .stars {
+      color: #f59e0b;
+
+      letter-spacing: 2px;
+
+      font-size: 18px;
+
+      margin: 8px 0;
+    }
+
+    .review-card h2 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .review-card p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 17px;
+    }
+
+    /* ================= LOCATIONS ================= */
 
     .location-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 13px;
+      gap: 17px;
     }
 
     .location-card {
-      position: relative;
-      overflow: hidden;
-      background: #fff;
+      background: white;
+
       border: 1px solid var(--border);
+
       border-radius: 21px;
-      padding: 24px;
-      box-shadow: 0 7px 24px rgba(32, 52, 100, .04);
+
+      padding: 23px;
+
+      box-shadow: var(--shadow);
     }
 
-    .location-card::before {
-      content: "";
-      position: absolute;
-      width: 75px;
-      height: 75px;
-      right: -25px;
-      top: -25px;
-      border-radius: 50%;
-      background: #eaf0ff;
+    .location-top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      margin-bottom: 13px;
     }
 
-    .location-label {
-      position: relative;
-      z-index: 2;
-      color: var(--blue);
-      font-size: 9px;
-      font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+    .location-icon {
+      width: 43px;
+      height: 43px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 12px;
+
+      background: var(--primary-soft);
+
+      color: var(--primary);
+
+      font-weight: 800;
     }
 
     .location-card h3 {
-      position: relative;
-      z-index: 2;
-      font-size: 20px;
-      margin: 6px 0;
+      font-size: 17px;
     }
 
     .location-card p {
-      position: relative;
-      z-index: 2;
       color: var(--muted);
-      font-size: 11px;
+      font-size: 13px;
       line-height: 1.6;
       margin-bottom: 16px;
     }
 
     .location-btn {
-      position: relative;
-      z-index: 2;
       display: inline-flex;
-      padding: 10px 14px;
-      border-radius: 12px;
-      background: #edf3ff;
-      color: var(--blue);
-      font-size: 10px;
-      font-weight: 850;
+
+      align-items: center;
+      justify-content: center;
+
+      min-height: 40px;
+
+      padding: 0 14px;
+
+      border-radius: 10px;
+
+      background: var(--primary-soft);
+
+      color: var(--primary);
+
+      font-size: 12px;
+      font-weight: 700;
     }
 
-    /* =========================
-       CTA
-    ========================= */
+    /* ================= WHATSAPP CTA ================= */
 
     .cta {
-      padding: 55px 0;
+      padding: 18px 0 55px;
     }
 
     .cta-box {
-      position: relative;
-      overflow: hidden;
-      text-align: center;
-      padding: 39px 25px;
-      border-radius: 26px;
-      background:
-        radial-gradient(circle at 15% 80%, rgba(250,204,21,.32), transparent 25%),
-        radial-gradient(circle at 85% 20%, rgba(236,72,153,.28), transparent 25%),
-        linear-gradient(135deg, #2563eb, #7c3aed);
-      color: #fff;
-      box-shadow: 0 15px 38px rgba(70, 65, 190, .18);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 20px;
+
+      padding: 27px;
+
+      border-radius: 22px;
+
+      background: #ecfdf3;
+
+      border: 1px solid #d1fae5;
     }
 
     .cta-box h2 {
-      font-size: 30px;
-      letter-spacing: -1.2px;
-      margin-bottom: 7px;
+      font-size: 22px;
+      margin-bottom: 4px;
     }
 
     .cta-box p {
-      color: rgba(255,255,255,.82);
-      font-size: 12px;
-      margin-bottom: 20px;
+      color: #527064;
+      font-size: 13px;
     }
 
-    .cta-actions {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 9px;
+    .whatsapp-btn {
+      background: var(--green);
+      color: white;
+
+      white-space: nowrap;
+
+      box-shadow: 0 7px 18px rgba(22, 163, 74, 0.16);
     }
 
-    /* =========================
-       FOOTER
-    ========================= */
+    .whatsapp-btn:hover {
+      background: #15803d;
+    }
+
+    /* ================= FOOTER ================= */
 
     footer {
-      background: #101827;
-      color: #fff;
-      padding: 27px 0;
+      background: #111827;
+      color: white;
+
+      padding: 34px 0 25px;
     }
 
-    .footer-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 15px;
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 35px;
     }
 
     .footer-brand {
-      font-size: 12px;
-      font-weight: 900;
-    }
+      font-size: 16px;
+      font-weight: 800;
 
-    .footer-brand span {
-      display: block;
-      color: #8f98a8;
-      font-size: 9px;
-      font-weight: 500;
-      margin-top: 4px;
+      margin-bottom: 8px;
     }
 
     .footer-text {
-      color: #8f98a8;
-      font-size: 9px;
-      text-align: right;
+      color: #a8b3c2;
+      font-size: 12px;
+      line-height: 1.7;
+
+      max-width: 410px;
     }
 
-    /* =========================
-       TABLET
-    ========================= */
+    .footer-title {
+      font-size: 13px;
+      font-weight: 700;
 
-    @media (max-width: 850px) {
+      margin-bottom: 10px;
+    }
+
+    .footer-links {
+      display: grid;
+      gap: 7px;
+    }
+
+    .footer-links a {
+      color: #a8b3c2;
+      font-size: 12px;
+    }
+
+    .footer-links a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #263244;
+
+      margin-top: 25px;
+      padding-top: 17px;
+
+      color: #8996a8;
+
+      font-size: 11px;
+
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    /* ================= RESPONSIVE ================= */
+
+    @media (max-width: 900px) {
 
       .hero-box {
-        padding: 36px;
+        padding: 38px 30px;
       }
 
-      .quick-info {
+      .shop-grid {
         grid-template-columns: repeat(2, 1fr);
       }
 
-      .category-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .about-box {
+      .about-grid {
         grid-template-columns: 1fr;
       }
 
-      .review-box {
-        align-items: flex-start;
-        flex-direction: column;
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
       }
-
     }
 
-    /* =========================
-       MOBILE
-    ========================= */
-
-    @media (max-width: 540px) {
+    @media (max-width: 680px) {
 
       .container {
-        width: min(100% - 20px, 1140px);
+        width: min(100% - 22px, 1160px);
       }
 
       .nav {
         min-height: 62px;
       }
 
-      .brand {
+      .brand-logo {
+        width: 38px;
+        height: 38px;
+        border-radius: 11px;
+      }
+
+      .brand-name {
         font-size: 12px;
       }
 
-      .brand-logo {
-        width: 35px;
-        height: 35px;
-        border-radius: 11px;
-        font-size: 15px;
-      }
-
-      .brand-text span {
-        font-size: 8px;
-      }
-
-      .nav-btn {
-        padding: 10px 13px;
+      .brand-sub {
         font-size: 10px;
       }
 
+      .nav-links a:not(.nav-cta) {
+        display: none;
+      }
+
+      .nav-cta {
+        padding: 8px 11px !important;
+        font-size: 12px !important;
+      }
+
       .hero {
-        padding-top: 24px;
+        padding: 23px 0 14px;
       }
 
       .hero-box {
-        padding: 28px 21px;
-        border-radius: 23px;
+        padding: 29px 22px;
+        border-radius: 22px;
       }
 
       .hero h1 {
-        font-size: 39px;
-        letter-spacing: -2px;
+        font-size: 34px;
+        letter-spacing: -1px;
       }
 
       .hero-description {
-        font-size: 13px;
+        font-size: 14px;
+        line-height: 1.65;
       }
 
       .hero-actions {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
       }
 
       .btn {
-        width: 100%;
+        padding: 0 12px;
+        font-size: 12px;
       }
 
-      .quick-info {
-        gap: 8px;
-      }
-
-      .info-card {
-        padding: 14px;
-        border-radius: 15px;
-      }
-
-      .info-card strong {
-        font-size: 11px;
-      }
-
-      .info-card span {
-        font-size: 9px;
-      }
-
-      .section {
-        padding-top: 43px;
-      }
-
-      .section-heading {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 7px;
-      }
-
-      .section-heading h2 {
-        font-size: 24px;
-      }
-
-      .section-heading p {
-        text-align: left;
-        font-size: 11px;
-      }
-
-      .category-grid {
+      .quick-grid {
+        grid-template-columns: 1fr;
         gap: 9px;
       }
 
-      .category-card {
-        min-height: 155px;
-        padding: 17px;
-        border-radius: 17px;
+      .quick-card {
+        padding: 14px;
       }
 
-      .category-content {
-        left: 17px;
-        right: 17px;
-        bottom: 17px;
+      .section {
+        padding: 31px 0;
       }
 
-      .category-card h3 {
-        font-size: 15px;
+      .section-header {
+        margin-bottom: 15px;
       }
 
-      .category-card p {
-        font-size: 9px;
-      }
-
-      .category-arrow {
-        top: 14px;
-        right: 14px;
-      }
-
-      .about-box {
-        padding: 23px;
-        border-radius: 20px;
-      }
-
-      .about-box h2 {
-        font-size: 25px;
-      }
-
-      .about-points {
-        grid-template-columns: 1fr;
-      }
-
-      .review-box {
-        padding: 26px 21px;
-        border-radius: 20px;
-      }
-
-      .review-box h2 {
+      .section-title {
         font-size: 23px;
       }
 
-      .review-btn {
-        width: 100%;
-        text-align: center;
+      .section-subtitle {
+        font-size: 12px;
+      }
+
+      .category-card {
+        flex-basis: 275px;
+        height: 190px;
+      }
+
+      .shop-box {
+        padding: 14px;
+        border-radius: 19px;
+      }
+
+      .shop-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 9px;
+      }
+
+      .shop-item {
+        padding: 14px;
+      }
+
+      .shop-item h3 {
+        font-size: 13px;
+      }
+
+      .about-card,
+      .trust-card {
+        padding: 21px;
+        border-radius: 19px;
       }
 
       .location-grid {
         grid-template-columns: 1fr;
       }
 
-      .location-card {
-        border-radius: 17px;
-      }
-
-      .cta {
-        padding: 43px 0;
+      .review-card {
+        padding: 23px 17px;
       }
 
       .cta-box {
-        border-radius: 21px;
-        padding: 30px 19px;
-      }
-
-      .cta-box h2 {
-        font-size: 25px;
-      }
-
-      .cta-actions {
-        display: grid;
-        grid-template-columns: 1fr;
-      }
-
-      .footer-inner {
         align-items: flex-start;
         flex-direction: column;
+        padding: 22px;
       }
 
-      .footer-text {
-        text-align: left;
+      .whatsapp-btn {
+        width: 100%;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 23px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+
+    @media (min-width: 901px) {
+      .category-scroll {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow: visible;
+      }
+
+      .category-card {
+        width: 100%;
       }
     }
   </style>  <!-- Local Business Schema -->  <script type="application/ld+json">
@@ -918,9 +1103,9 @@
     "@context": "https://schema.org",
     "@type": "FurnitureStore",
     "name": "SHREE SHIVSHAKTI ENTERPRISES",
-    "description": "Nilkamal furniture store in Thane offering Nilkamal chairs, plastic furniture, stools, cabinets, tables, folding furniture and other furniture products for retail and bulk requirements.",
+    "description": "Nilkamal furniture and furniture store in Thane offering chairs, stools, cabinets, tables, plastic furniture and steel furniture for retail and bulk requirements.",
     "url": "https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/",
-    "telephone": "+918268321227",
+    "telephone": "+91-8268321227",
     "brand": {
       "@type": "Brand",
       "name": "Nilkamal"
@@ -940,28 +1125,49 @@
     "name": "SHREE SHIVSHAKTI ENTERPRISES",
     "url": "https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/"
   }
-  </script></head><body>  <!-- HEADER -->  <header class="header"><div class="container nav">
-
-  <a href="./index.html" class="brand">
+  </script></head><body>  <!-- ================= HEADER ================= -->  <header class="header">
+    <div class="container nav">  <a href="index.html" class="brand">
 
     <div class="brand-logo">
-      S
+      SS
     </div>
 
     <div class="brand-text">
-      SHREE SHIVSHAKTI
-      <span>Nilkamal Furniture • Thane</span>
+      <div class="brand-name">
+        SHREE SHIVSHAKTI ENTERPRISES
+      </div>
+
+      <div class="brand-sub">
+        Nilkamal Furniture • Thane
+      </div>
     </div>
 
   </a>
 
-  <a href="./products.html" class="nav-btn">
-    View Catalogue
-  </a>
+  <nav class="nav-links">
+
+    <a href="products.html">
+      Products
+    </a>
+
+    <a href="#locations">
+      Stores
+    </a>
+
+    <a
+      class="nav-cta"
+      href="https://wa.me/918268321227?text=Hello%20SHREE%20SHIVSHAKTI%20ENTERPRISES,%20I%20want%20to%20enquire%20about%20furniture."
+      target="_blank"
+      rel="noopener"
+    >
+      WhatsApp
+    </a>
+
+  </nav>
 
 </div>
 
-  </header>  <main><!-- HERO -->
+  </header>  <main><!-- ================= HERO ================= -->
 
 <section class="hero">
 
@@ -971,33 +1177,37 @@
 
       <div class="hero-content">
 
-        <div class="eyebrow">
-          ● NILKAMAL FURNITURE • THANE
+        <div class="hero-label">
+          <span></span>
+          Nilkamal Furniture in Thane
         </div>
 
         <h1>
-          Nilkamal Furniture in Thane
+          Quality Furniture for
+          <strong>Every Space.</strong>
         </h1>
 
         <p class="hero-description">
-          Explore quality Nilkamal furniture from
-          SHREE SHIVSHAKTI ENTERPRISES. Browse Nilkamal
-          chairs, plastic furniture, stools, cabinets,
-          tables and folding furniture for home, office,
-          commercial and bulk requirements.
+          Explore Nilkamal chairs, stools, cabinets, tables,
+          plastic furniture and steel furniture for home,
+          office, commercial and bulk requirements.
         </p>
 
         <div class="hero-actions">
 
-          <a href="./products.html" class="btn btn-white">
-            Browse Catalogue →
+          <a
+            href="products.html"
+            class="btn btn-primary"
+          >
+            Browse Products →
           </a>
 
           <a
-            href="https://wa.me/918268321227?text=Hello%20SHREE%20SHIVSHAKTI%20ENTERPRISES%2C%20I%20want%20to%20enquire%20about%20furniture."
+            href="https://wa.me/918268321227?text=Hello%20SHREE%20SHIVSHAKTI%20ENTERPRISES,%20I%20want%20to%20enquire%20about%20your%20furniture."
+            class="btn btn-light"
             target="_blank"
             rel="noopener"
-            class="btn btn-whatsapp">
+          >
             WhatsApp Enquiry
           </a>
 
@@ -1012,58 +1222,52 @@
 </section>
 
 
-<!-- QUICK INFO -->
+<!-- ================= QUICK INFO ================= -->
 
-<section>
+<section class="quick-info">
 
   <div class="container">
 
-    <div class="quick-info">
+    <div class="quick-grid">
 
-      <div class="info-card">
+      <div class="quick-card">
 
-        <div class="info-icon icon-blue">
+        <div class="quick-icon blue">
           ✓
         </div>
 
-        <strong>Genuine Furniture</strong>
-        <span>Quality-focused products</span>
-
-      </div>
-
-
-      <div class="info-card">
-
-        <div class="info-icon icon-green">
-          ★
+        <div>
+          <h3>Quality Furniture</h3>
+          <p>Reliable products for everyday use</p>
         </div>
 
-        <strong>Warranty Available</strong>
-        <span>Selected products with warranty</span>
-
       </div>
 
 
-      <div class="info-card">
+      <div class="quick-card">
 
-        <div class="info-icon icon-orange">
+        <div class="quick-icon green">
           ₹
         </div>
 
-        <strong>Retail & Bulk</strong>
-        <span>Single and bulk requirements</span>
+        <div>
+          <h3>Retail & Bulk</h3>
+          <p>Suitable for home and commercial orders</p>
+        </div>
 
       </div>
 
 
-      <div class="info-card">
+      <div class="quick-card">
 
-        <div class="info-icon icon-purple">
-          📍
+        <div class="quick-icon orange">
+          ★
         </div>
 
-        <strong>Thane Store</strong>
-        <span>Manpada & Dongripada</span>
+        <div>
+          <h3>Nilkamal Furniture</h3>
+          <p>Wide range of furniture products</p>
+        </div>
 
       </div>
 
@@ -1074,46 +1278,53 @@
 </section>
 
 
-<!-- CATEGORIES -->
+<!-- ================= PRODUCT CATEGORIES ================= -->
 
 <section class="section">
 
   <div class="container">
 
-    <div class="section-heading">
+    <div class="section-header">
 
       <div>
-        <h2>Shop Furniture</h2>
+        <h2 class="section-title">
+          Product Categories
+        </h2>
+
+        <p class="section-subtitle">
+          Explore furniture by category
+        </p>
       </div>
 
-      <p>
-        Browse popular Nilkamal furniture categories
-        and find products suitable for your requirement.
-      </p>
+      <a
+        href="products.html"
+        class="view-all"
+      >
+        View All
+      </a>
 
     </div>
 
 
-    <div class="category-grid">
+    <div class="category-scroll">
 
+      <!-- CHAIR -->
 
       <a
-        href="./products.html?category=Chairs"
-        class="category-card cat-blue">
+        href="products.html?category=Chairs"
+        class="category-card"
+      >
 
-        <span class="category-number">
-          01
-        </span>
+        <img
+          id="category-chair-image"
+          src=""
+          alt="Nilkamal Chairs in Thane"
+          loading="lazy"
+        >
 
-        <span class="category-arrow">
-          →
-        </span>
+        <div class="category-overlay">
 
-        <div class="category-content">
-
-          <h3>
-            Nilkamal Chairs
-          </h3>
+          <h3>Chairs</h3>
 
           <p>
             Plastic chairs & arm chairs
@@ -1121,26 +1332,30 @@
 
         </div>
 
+        <div class="category-arrow">
+          →
+        </div>
+
       </a>
 
 
+      <!-- STOOL -->
+
       <a
-        href="./products.html?category=Stools"
-        class="category-card cat-purple">
+        href="products.html?category=Stools"
+        class="category-card"
+      >
 
-        <span class="category-number">
-          02
-        </span>
+        <img
+          id="category-stool-image"
+          src=""
+          alt="Nilkamal Stools in Thane"
+          loading="lazy"
+        >
 
-        <span class="category-arrow">
-          →
-        </span>
+        <div class="category-overlay">
 
-        <div class="category-content">
-
-          <h3>
-            Nilkamal Stools
-          </h3>
+          <h3>Stools</h3>
 
           <p>
             Plastic stools & step stools
@@ -1148,62 +1363,42 @@
 
         </div>
 
-      </a>
-
-
-      <a
-        href="./products.html?category=Cabinets"
-        class="category-card cat-orange">
-
-        <span class="category-number">
-          03
-        </span>
-
-        <span class="category-arrow">
+        <div class="category-arrow">
           →
-        </span>
-
-        <div class="category-content">
-
-          <h3>
-            Nilkamal Cabinets
-          </h3>
-
-          <p>
-            Plastic storage cabinets
-          </p>
-
         </div>
 
       </a>
 
 
+      <!-- CABINET -->
+
       <a
-        href="./products.html"
-        class="category-card cat-pink">
+        href="products.html?category=Cabinets"
+        class="category-card"
+      >
 
-        <span class="category-number">
-          04
-        </span>
+        <img
+          id="category-cabinet-image"
+          src=""
+          alt="Nilkamal Cabinets in Thane"
+          loading="lazy"
+        >
 
-        <span class="category-arrow">
-          →
-        </span>
+        <div class="category-overlay">
 
-        <div class="category-content">
-
-          <h3>
-            All Furniture
-          </h3>
+          <h3>Cabinets</h3>
 
           <p>
-            View complete catalogue
+            Storage cabinets & cupboards
           </p>
 
         </div>
 
-      </a>
+        <div class="category-arrow">
+          →
+        </div>
 
+      </a>
 
     </div>
 
@@ -1212,60 +1407,220 @@
 </section>
 
 
-<!-- ABOUT -->
+<!-- ================= SHOP FURNITURE ================= -->
 
 <section class="section">
 
   <div class="container">
 
-    <div class="about-box">
+    <div class="section-header">
 
       <div>
+        <h2 class="section-title">
+          Shop Furniture
+        </h2>
+
+        <p class="section-subtitle">
+          Browse our furniture range
+        </p>
+      </div>
+
+      <a
+        href="products.html"
+        class="view-all"
+      >
+        All Products →
+      </a>
+
+    </div>
+
+
+    <div class="shop-box">
+
+      <div class="shop-grid">
+
+        <a
+          href="products.html?category=Chairs"
+          class="shop-item"
+        >
+
+          <div class="shop-item-icon">
+            C
+          </div>
+
+          <h3>Nilkamal Chairs</h3>
+
+          <p>
+            Plastic arm chairs, armless chairs and more.
+          </p>
+
+        </a>
+
+
+        <a
+          href="products.html?category=Stools"
+          class="shop-item"
+        >
+
+          <div class="shop-item-icon">
+            S
+          </div>
+
+          <h3>Stools</h3>
+
+          <p>
+            Practical plastic stools and step stools.
+          </p>
+
+        </a>
+
+
+        <a
+          href="products.html?category=Cabinets"
+          class="shop-item"
+        >
+
+          <div class="shop-item-icon">
+            C
+          </div>
+
+          <h3>Cabinets</h3>
+
+          <p>
+            Plastic storage cabinets for home and office.
+          </p>
+
+        </a>
+
+
+        <a
+          href="products.html"
+          class="shop-item"
+        >
+
+          <div class="shop-item-icon">
+            +
+          </div>
+
+          <h3>More Furniture</h3>
+
+          <p>
+            Tables, steel furniture and other products.
+          </p>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section">
+
+  <div class="container">
+
+    <div class="about-grid">
+
+      <div class="about-card">
 
         <h2>
-          Nilkamal Furniture in Thane
+          About SHREE SHIVSHAKTI ENTERPRISES
         </h2>
 
         <p>
-          SHREE SHIVSHAKTI ENTERPRISES provides Nilkamal
-          furniture and other furniture products in Thane.
-          Our catalogue includes Nilkamal plastic chairs,
-          stools, cabinets and other furniture options for
-          homes, offices, shops, commercial spaces and bulk
+          SHREE SHIVSHAKTI ENTERPRISES is a furniture
+          retailer and wholesale supplier serving customers
+          in Thane and nearby areas. We offer Nilkamal
+          furniture and a range of practical furniture
+          products for homes, offices, shops and commercial
           requirements.
         </p>
 
+
+        <div class="about-list">
+
+          <div>
+            <span class="check">✓</span>
+            Nilkamal furniture range
+          </div>
+
+          <div>
+            <span class="check">✓</span>
+            Retail and bulk requirements
+          </div>
+
+          <div>
+            <span class="check">✓</span>
+            Serving Thane and nearby areas
+          </div>
+
+          <div>
+            <span class="check">✓</span>
+            WhatsApp enquiry available
+          </div>
+
+        </div>
+
       </div>
 
 
-      <div class="about-points">
+      <div class="trust-card">
 
-        <div class="about-point">
-          <strong>Nilkamal Chairs</strong>
-          <span>
-            Plastic chairs, arm chairs and seating options.
-          </span>
-        </div>
+        <h2>
+          Why Customers Choose Us
+        </h2>
 
-        <div class="about-point">
-          <strong>Nilkamal Storage</strong>
-          <span>
-            Plastic cabinets and storage furniture.
-          </span>
-        </div>
+        <div class="trust-items">
 
-        <div class="about-point">
-          <strong>Online Catalogue</strong>
-          <span>
-            Browse products, prices and product details.
-          </span>
-        </div>
+          <div class="trust-item">
 
-        <div class="about-point">
-          <strong>Bulk Enquiries</strong>
-          <span>
-            Contact us directly for larger requirements.
-          </span>
+            <strong>Genuine Furniture</strong>
+
+            <span>
+              Focus on quality and branded furniture products.
+            </span>
+
+          </div>
+
+
+          <div class="trust-item">
+
+            <strong>Retail & Wholesale</strong>
+
+            <span>
+              Enquiries accepted for individual and bulk requirements.
+            </span>
+
+          </div>
+
+
+          <div class="trust-item">
+
+            <strong>Local Thane Store</strong>
+
+            <span>
+              Conveniently serving customers around Thane.
+            </span>
+
+          </div>
+
+
+          <div class="trust-item">
+
+            <strong>Easy Enquiry</strong>
+
+            <span>
+              Send your requirement directly through WhatsApp.
+            </span>
+
+          </div>
+
         </div>
 
       </div>
@@ -1277,37 +1632,38 @@
 </section>
 
 
-<!-- GOOGLE REVIEWS -->
+<!-- ================= REVIEWS ================= -->
 
-<section class="section">
+<section class="section review-section">
 
   <div class="container">
 
-    <div class="review-box">
+    <div class="review-card">
 
-      <div>
-
-        <div class="review-stars">
-          ★★★★★
-        </div>
-
-        <h2>
-          See our Google Reviews
-        </h2>
-
-        <p>
-          Check customer reviews and our store location on Google.
-        </p>
-
+      <div class="google-badge">
+        G
       </div>
 
+      <h2>
+        Customer Reviews
+      </h2>
+
+      <div class="stars">
+        ★★★★★
+      </div>
+
+      <p>
+        See what customers say about
+        SHREE SHIVSHAKTI ENTERPRISES on Google.
+      </p>
 
       <a
         href="https://maps.app.goo.gl/tiEruQ4SLro3ExLU67"
+        class="btn btn-primary"
         target="_blank"
         rel="noopener"
-        class="review-btn">
-        View Google Reviews →
+      >
+        View Google Reviews
       </a>
 
     </div>
@@ -1317,79 +1673,100 @@
 </section>
 
 
-<!-- STORE LOCATIONS -->
+<!-- ================= LOCATIONS ================= -->
 
-<section class="section">
+<section
+  class="section"
+  id="locations"
+>
 
   <div class="container">
 
-    <div class="section-heading">
+    <div class="section-header">
 
       <div>
-        <h2>Store Locations</h2>
-      </div>
 
-      <p>
-        Visit SHREE SHIVSHAKTI ENTERPRISES in Thane.
-      </p>
+        <h2 class="section-title">
+          Our Store Locations
+        </h2>
+
+        <p class="section-subtitle">
+          Visit us in Thane
+        </p>
+
+      </div>
 
     </div>
 
 
     <div class="location-grid">
 
+      <!-- MANPADA -->
 
       <div class="location-card">
 
-        <div class="location-label">
-          Store 01
+        <div class="location-top">
+
+          <div class="location-icon">
+            M
+          </div>
+
+          <div>
+            <h3>Manpada</h3>
+          </div>
+
         </div>
 
-        <h3>
-          Manpada
-        </h3>
-
         <p>
-          SHREE SHIVSHAKTI ENTERPRISES<br>
-          Manpada, Thane
+          Visit SHREE SHIVSHAKTI ENTERPRISES in
+          Manpada, Thane for furniture enquiries,
+          retail purchases and bulk requirements.
         </p>
 
         <a
           href="https://share.google/2YcYIcF3TiTp4UQg0"
+          class="location-btn"
           target="_blank"
           rel="noopener"
-          class="location-btn">
+        >
           Open Location →
         </a>
 
       </div>
 
 
+      <!-- DONGRIPADA -->
+
       <div class="location-card">
 
-        <div class="location-label">
-          Store 02
+        <div class="location-top">
+
+          <div class="location-icon">
+            D
+          </div>
+
+          <div>
+            <h3>Dongripada</h3>
+          </div>
+
         </div>
 
-        <h3>
-          Dongripada
-        </h3>
-
         <p>
-          SHREE SHIVSHAKTI ENTERPRISES<br>
-          Dongripada, Thane
+          Our Dongripada location serves customers
+          around Thane and nearby residential and
+          commercial areas.
         </p>
 
         <a
           href="https://share.google/0CKFuWiAMtsq1TBgO"
+          class="location-btn"
           target="_blank"
           rel="noopener"
-          class="location-btn">
+        >
           Open Location →
         </a>
 
       </div>
-
 
     </div>
 
@@ -1398,7 +1775,7 @@
 </section>
 
 
-<!-- CTA -->
+<!-- ================= WHATSAPP CTA ================= -->
 
 <section class="cta">
 
@@ -1406,28 +1783,96 @@
 
     <div class="cta-box">
 
-      <h2>
-        Looking for furniture?
-      </h2>
+      <div>
 
-      <p>
-        Browse our catalogue or send your requirement directly on WhatsApp.
+        <h2>
+          Looking for Furniture?
+        </h2>
+
+        <p>
+          Send us your product requirement and quantity on WhatsApp.
+        </p>
+
+      </div>
+
+
+      <a
+        href="https://wa.me/918268321227?text=Hello%20SHREE%20SHIVSHAKTI%20ENTERPRISES,%20I%20want%20to%20enquire%20about%20furniture.%0A%0AProduct:%20%0AQuantity:%20"
+        class="btn whatsapp-btn"
+        target="_blank"
+        rel="noopener"
+      >
+        WhatsApp Us
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+  </main>  <!-- ================= FOOTER ================= -->  <footer><div class="container">
+
+  <div class="footer-grid">
+
+    <div>
+
+      <div class="footer-brand">
+        SHREE SHIVSHAKTI ENTERPRISES
+      </div>
+
+      <p class="footer-text">
+        Nilkamal furniture, plastic furniture,
+        cabinets, stools, chairs, tables and more
+        for retail and bulk requirements in Thane.
       </p>
 
-      <div class="cta-actions">
+    </div>
 
-        <a
-          href="./products.html"
-          class="btn btn-white">
-          Browse Catalogue
+
+    <div>
+
+      <div class="footer-title">
+        Quick Links
+      </div>
+
+      <div class="footer-links">
+
+        <a href="index.html">
+          Home
         </a>
 
-        <a
-          href="https://wa.me/918268321227?text=Hello%20SHREE%20SHIVSHAKTI%20ENTERPRISES%2C%20I%20want%20to%20enquire%20about%20furniture."
-          target="_blank"
-          rel="noopener"
-          class="btn btn-whatsapp">
-          WhatsApp Us
+        <a href="products.html">
+          Products
+        </a>
+
+        <a href="#locations">
+          Store Locations
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div>
+
+      <div class="footer-title">
+        Categories
+      </div>
+
+      <div class="footer-links">
+
+        <a href="products.html?category=Chairs">
+          Chairs
+        </a>
+
+        <a href="products.html?category=Stools">
+          Stools
+        </a>
+
+        <a href="products.html?category=Cabinets">
+          Cabinets
         </a>
 
       </div>
@@ -1436,25 +1881,110 @@
 
   </div>
 
-</section>
 
-  </main>  <!-- FOOTER -->  <footer><div class="container footer-inner">
-
-  <div class="footer-brand">
-
-    SHREE SHIVSHAKTI ENTERPRISES
+  <div class="footer-bottom">
 
     <span>
-      Nilkamal Furniture • Thane
+      © <span id="year"></span>
+      SHREE SHIVSHAKTI ENTERPRISES
+    </span>
+
+    <span>
+      Thane, Maharashtra
     </span>
 
   </div>
 
-  <div class="footer-text">
-    Manpada • Dongripada • Thane
-  </div>
-
 </div>
 
-  </footer></body>
+  </footer>  <!-- ================= JAVASCRIPT ================= -->  <script>
+
+    /*
+      Automatically loads one image for each
+      category from product.json.
+
+      So you don't need to edit index.html
+      whenever product images change.
+    */
+
+    async function loadCategoryImages() {
+
+      const categoryMap = {
+        Chairs: "category-chair-image",
+        Stools: "category-stool-image",
+        Cabinets: "category-cabinet-image"
+      };
+
+      try {
+
+        const response = await fetch("product.json", {
+          cache: "no-cache"
+        });
+
+        if (!response.ok) {
+          throw new Error("Unable to load product.json");
+        }
+
+        const products = await response.json();
+
+        if (!Array.isArray(products)) {
+          throw new Error("Invalid product.json format");
+        }
+
+
+        Object.keys(categoryMap).forEach(category => {
+
+          const product = products.find(item => {
+
+            return String(item.category || "")
+              .trim()
+              .toLowerCase() === category.toLowerCase();
+
+          });
+
+
+          const imageElement =
+            document.getElementById(categoryMap[category]);
+
+
+          if (
+            product &&
+            Array.isArray(product.images) &&
+            product.images.length > 0 &&
+            imageElement
+          ) {
+
+            imageElement.src = product.images[0];
+
+          }
+
+        });
+
+      } catch (error) {
+
+        console.error(
+          "Category image loading error:",
+          error
+        );
+
+      }
+
+    }
+
+
+    /*
+      Current year
+    */
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+
+    /*
+      Load category images
+    */
+
+    loadCategoryImages();
+
+  </script></body>
 </html>
