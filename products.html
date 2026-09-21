@@ -1,45 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html><html lang="en">
 <head>
+  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Nilkamal Furniture Catalogue in Thane | SHREE SHIVSHAKTI ENTERPRISES</title><meta
+name="description"
+content="Browse Nilkamal chairs, furniture, cabinets and storage products from SHREE SHIVSHAKTI ENTERPRISES in Thane."
 
-  <meta charset="UTF-8">
+«»
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+<meta
+name="keywords"
+content="Nilkamal furniture, Nilkamal chair, Nilkamal furniture Thane, Nilkamal cabinet, plastic chair Thane, furniture store Thane"
 
-  <title>
-    Nilkamal Furniture Catalogue in Thane | SHREE SHIVSHAKTI ENTERPRISES
-  </title>
-
-  <meta
-    name="description"
-    content="Browse Nilkamal furniture, Nilkamal chairs, plastic chairs, tables, cabinets, folding furniture and steel furniture from SHREE SHIVSHAKTI ENTERPRISES in Thane."
-  >
-
-  <meta
-    name="keywords"
-    content="Nilkamal, Nilkamal furniture, Nilkamal chair, Nilkamal chairs Thane, Nilkamal furniture Thane, plastic chair Thane, furniture catalogue Thane"
-  >
-
-  <meta
-    name="robots"
-    content="index, follow"
-  >
+«»
 
   <link
     rel="canonical"
     href="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html"
-  >
-
-
-  <style>
-
-    /* =========================
-       RESET
-    ========================= */
+  >  <style>
 
     * {
       box-sizing: border-box;
@@ -47,1103 +23,784 @@
       padding: 0;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
-
     body {
       font-family: Arial, sans-serif;
-      background: #f6f6f6;
+      background: #f5f5f5;
       color: #222;
-      line-height: 1.5;
     }
 
-    img {
-      display: block;
-      width: 100%;
-    }
-
-    button,
-    input {
-      font: inherit;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-
-    /* =========================
-       HEADER
-    ========================= */
+    /* HEADER */
 
     header {
+      background: #ffffff;
+      padding: 15px;
       position: sticky;
       top: 0;
-      z-index: 1000;
-
-      background: #111;
-      color: #fff;
-
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
     }
 
     .header-inner {
-      width: min(1100px, 92%);
-      margin: auto;
-
-      min-height: 60px;
-
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      gap: 15px;
-    }
-
-    .logo {
-      font-size: 15px;
-      font-weight: 700;
-    }
-
-    .home-link {
-      font-size: 14px;
-      color: #fff;
-    }
-
-
-    /* =========================
-       MAIN CONTAINER
-    ========================= */
-
-    .container {
-      width: min(1100px, 92%);
+      max-width: 1200px;
       margin: auto;
     }
 
-
-    /* =========================
-       HERO
-    ========================= */
-
-    .hero {
-      padding: 40px 0 25px;
+    .store-name {
+      font-size: 20px;
+      font-weight: 800;
       text-align: center;
-      background: #fff;
     }
 
-    .hero h1 {
-      font-size: clamp(28px, 5vw, 42px);
-      line-height: 1.2;
-      margin-bottom: 12px;
-    }
-
-    .hero p {
-      max-width: 700px;
-      margin: auto;
+    .store-location {
+      text-align: center;
       color: #666;
-      font-size: 15px;
+      font-size: 13px;
+      margin-top: 4px;
     }
 
+    /* SEARCH */
 
-    /* =========================
-       SEARCH
-    ========================= */
-
-    .search-box {
-      margin: 25px auto 15px;
-      max-width: 650px;
+    .search-area {
+      max-width: 700px;
+      margin: 18px auto;
+      padding: 0 15px;
     }
 
-    .search-box input {
+    #searchInput {
       width: 100%;
-
-      padding: 14px 17px;
-
+      padding: 14px 16px;
       border: 1px solid #ddd;
-      border-radius: 9px;
-
-      background: #fff;
-
+      border-radius: 10px;
+      font-size: 16px;
       outline: none;
-      font-size: 15px;
+      background: #fff;
     }
 
-    .search-box input:focus {
-      border-color: #111;
+    #searchInput:focus {
+      border-color: #888;
     }
 
+    /* CATEGORY */
 
-    /* =========================
-       CATEGORY FILTER
-    ========================= */
-
-    .filters {
+    .category-bar {
       display: flex;
       gap: 8px;
-
       overflow-x: auto;
-
-      padding: 5px 0 15px;
-
-      scrollbar-width: none;
+      padding: 0 15px 15px;
+      max-width: 1200px;
+      margin: auto;
     }
 
-    .filters::-webkit-scrollbar {
-      display: none;
-    }
-
-    .filter-btn {
-      flex: 0 0 auto;
-
-      padding: 9px 15px;
-
+    .category-btn {
+      white-space: nowrap;
       border: 1px solid #ddd;
-      border-radius: 30px;
-
       background: #fff;
-      color: #333;
-
+      padding: 9px 15px;
+      border-radius: 20px;
       cursor: pointer;
-
-      font-size: 13px;
-      font-weight: 600;
+      font-size: 14px;
     }
 
-    .filter-btn.active {
-      background: #111;
+    .category-btn.active {
+      background: #222;
       color: #fff;
-      border-color: #111;
+      border-color: #222;
     }
 
+    /* PRODUCT GRID */
 
-    /* =========================
-       CATALOGUE
-    ========================= */
-
-    .catalogue {
-      padding: 25px 0 50px;
+    .products-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 5px 12px 40px;
     }
 
-    .product-grid {
+    .products-grid {
       display: grid;
-
-      grid-template-columns: repeat(4, 1fr);
-
-      gap: 18px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
     }
 
-
-    /* =========================
-       PRODUCT CARD
-    ========================= */
+    /* PRODUCT CARD */
 
     .product-card {
       background: #fff;
-
-      border: 1px solid #e5e5e5;
-      border-radius: 10px;
-
+      border-radius: 12px;
       overflow: hidden;
-
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-    }
-
-    .product-card:hover {
-      transform: translateY(-3px);
-
-      box-shadow:
-        0 5px 18px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
     }
 
     .product-image {
+      width: 100%;
       aspect-ratio: 1 / 1;
-
-      background: #f1f1f1;
-
-      overflow: hidden;
-    }
-
-    .product-image img {
-      width: 100%;
-      height: 100%;
-
       object-fit: contain;
-
-      transition: transform 0.2s ease;
+      background: #fff;
+      display: block;
     }
 
-    .product-card:hover .product-image img {
-      transform: scale(1.03);
+    .product-content {
+      padding: 11px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
     }
 
-
-    /* =========================
-       PRODUCT DETAILS
-    ========================= */
-
-    .product-info {
-      padding: 14px;
-    }
-
-    .product-brand {
+    .brand {
+      font-size: 12px;
       color: #777;
-
-      font-size: 11px;
-
-      text-transform: uppercase;
-
-      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+      font-weight: 600;
     }
 
-    .product-name {
-      margin-top: 3px;
-
+    .product-title {
       font-size: 16px;
-
-      line-height: 1.3;
-    }
-
-    .product-description {
-      margin-top: 6px;
-
-      color: #666;
-
-      font-size: 12px;
-
-      min-height: 36px;
-    }
-
-    .product-price {
-      margin-top: 10px;
-
-      font-size: 18px;
-
+      line-height: 1.25;
       font-weight: 700;
+      margin-bottom: 7px;
     }
 
-    .price-note {
-      color: #777;
-      font-size: 11px;
-      font-weight: normal;
-    }
+    /* 3 LINE DESCRIPTION */
 
-
-    /* =========================
-       QUANTITY
-    ========================= */
-
-    .quantity-row {
-      display: flex;
-
-      align-items: center;
-      justify-content: space-between;
-
-      gap: 8px;
-
-      margin-top: 12px;
-    }
-
-    .quantity-row label {
-      font-size: 12px;
+    .description {
+      font-size: 13px;
       color: #555;
+      line-height: 1.4;
+
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+
+      margin-bottom: 8px;
     }
 
-    .quantity {
-      width: 65px;
+    /* RATING */
 
-      padding: 7px;
-
-      border: 1px solid #ddd;
-      border-radius: 6px;
-
-      text-align: center;
-    }
-
-
-    /* =========================
-       ENQUIRY BUTTON
-    ========================= */
-
-    .enquiry-btn {
-      width: 100%;
-
-      margin-top: 10px;
-
-      padding: 10px;
-
-      border: 0;
-      border-radius: 7px;
-
-      background: #168a45;
-      color: #fff;
-
-      cursor: pointer;
-
+    .rating {
       font-size: 13px;
-      font-weight: 700;
+      margin-bottom: 10px;
     }
 
-    .enquiry-btn.selected {
-      background: #111;
+    .stars {
+      color: #f5a623;
+      letter-spacing: 1px;
     }
 
-
-    /* =========================
-       NO PRODUCTS
-    ========================= */
-
-    .no-products {
-      display: none;
-
-      padding: 40px;
-
-      text-align: center;
-
+    .review-count {
       color: #777;
+      margin-left: 3px;
     }
 
+    /* QTY */
 
-    /* =========================
-       FLOATING ENQUIRY BAR
-    ========================= */
+    .qty-label {
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
 
-    .enquiry-bar {
-      position: fixed;
-
-      left: 50%;
-      bottom: 15px;
-
-      transform: translateX(-50%);
-
-      width: min(600px, 92%);
-
+    .qty-input {
+      width: 100%;
       padding: 10px;
-
-      display: flex;
-
-      align-items: center;
-      justify-content: space-between;
-
-      gap: 10px;
-
-      background: #111;
-      color: #fff;
-
-      border-radius: 12px;
-
-      box-shadow:
-        0 5px 25px rgba(0, 0, 0, 0.3);
-
-      z-index: 2000;
+      border: 1px solid #ddd;
+      border-radius: 7px;
+      font-size: 15px;
+      margin-bottom: 8px;
     }
 
-    .enquiry-count {
-      font-size: 13px;
-    }
+    /* WHATSAPP BUTTON */
 
     .whatsapp-btn {
-      border: 0;
-
-      padding: 10px 15px;
-
-      border-radius: 7px;
-
-      background: #25d366;
-      color: #fff;
-
-      cursor: pointer;
-
+      width: 100%;
+      border: none;
+      background: #25D366;
+      color: white;
+      padding: 11px 8px;
+      border-radius: 8px;
       font-size: 13px;
       font-weight: 700;
+      cursor: pointer;
     }
 
+    .whatsapp-btn:active {
+      transform: scale(0.98);
+    }
 
-    /* =========================
-       FOOTER
-    ========================= */
+    /* NO RESULTS */
 
-    footer {
-      padding: 35px 15px 90px;
-
-      background: #111;
-
-      color: #fff;
-
+    .no-results {
       text-align: center;
-
-      font-size: 13px;
+      padding: 50px 20px;
+      color: #777;
+      display: none;
     }
 
-    footer p {
-      margin-top: 5px;
-      color: #aaa;
+    /* LOADING */
+
+    .loading {
+      text-align: center;
+      padding: 50px;
+      color: #666;
     }
 
+    /* DESKTOP */
 
-    /* =========================
-       MOBILE
-    ========================= */
+    @media (min-width: 700px) {
 
-    @media (max-width: 800px) {
-
-      .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+      .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
       }
 
-      .product-info {
-        padding: 11px;
+      .product-title {
+        font-size: 18px;
       }
 
-      .product-name {
+      .description {
         font-size: 14px;
       }
+    }
 
-      .product-price {
-        font-size: 16px;
+    @media (min-width: 1000px) {
+
+      .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+    }
+
+  </style></head><body>  <header><div class="header-inner">
+
+  <div class="store-name">
+    SHREE SHIVSHAKTI ENTERPRISES
+  </div>
+
+  <div class="store-location">
+    Nilkamal Furniture Store in Thane
+  </div>
+
+</div>
+
+  </header>  <!-- SEARCH -->  <div class="search-area"><input
+  type="search"
+  id="searchInput"
+  placeholder="Search chair, cabinet, Nilkamal..."
+  autocomplete="off"
+>
+
+  </div>  <!-- CATEGORY -->  <div class="category-bar" id="categoryBar"><button
+  class="category-btn active"
+  data-category="All"
+>
+  All
+</button>
+
+  </div>  <!-- PRODUCTS -->  <main class="products-container"><div
+  id="loading"
+  class="loading"
+>
+  Loading products...
+</div>
+
+<div
+  id="productsGrid"
+  class="products-grid"
+></div>
+
+<div
+  id="noResults"
+  class="no-results"
+>
+  <h3>No products found</h3>
+  <p>Try another search.</p>
+</div>
+
+  </main>  <script>
+
+    const WHATSAPP_NUMBER = "918268321227";
+
+    let products = [];
+    let selectedCategory = "All";
+
+
+    /*
+      LOAD PRODUCTS FROM product.json
+    */
+
+    async function loadProducts() {
+
+      try {
+
+        const response = await fetch("product.json");
+
+        if (!response.ok) {
+          throw new Error("product.json could not be loaded");
+        }
+
+        const data = await response.json();
+
+        products = data.products || [];
+
+        document.getElementById("loading").style.display = "none";
+
+        createCategories();
+
+        displayProducts();
+
+      } catch (error) {
+
+        console.error(error);
+
+        document.getElementById("loading").innerHTML =
+          "Unable to load products. Please check product.json";
+
       }
 
     }
 
 
-    @media (max-width: 450px) {
+    /*
+      CREATE CATEGORY BUTTONS
+    */
 
-      .logo {
-        font-size: 13px;
-      }
+    function createCategories() {
 
-      .home-link {
-        font-size: 12px;
-      }
+      const categoryBar =
+        document.getElementById("categoryBar");
 
-      .hero {
-        padding-top: 30px;
-      }
+      const categories = [
+        ...new Set(
+          products
+            .map(product => product.category)
+            .filter(Boolean)
+        )
+      ];
 
-      .product-grid {
-        gap: 9px;
-      }
+      categories.forEach(category => {
 
-      .product-description {
-        font-size: 11px;
-      }
+        const button =
+          document.createElement("button");
 
-      .enquiry-bar {
-        bottom: 10px;
-      }
+        button.className = "category-btn";
+
+        button.textContent = category;
+
+        button.dataset.category = category;
+
+        button.addEventListener(
+          "click",
+          function() {
+
+            selectedCategory = category;
+
+            document
+              .querySelectorAll(".category-btn")
+              .forEach(btn =>
+                btn.classList.remove("active")
+              );
+
+            button.classList.add("active");
+
+            displayProducts();
+
+          }
+        );
+
+        categoryBar.appendChild(button);
+
+      });
+
+      /*
+        ALL BUTTON
+      */
+
+      const allButton =
+        document.querySelector(
+          '[data-category="All"]'
+        );
+
+      allButton.addEventListener(
+        "click",
+        function() {
+
+          selectedCategory = "All";
+
+          document
+            .querySelectorAll(".category-btn")
+            .forEach(btn =>
+              btn.classList.remove("active")
+            );
+
+          allButton.classList.add("active");
+
+          displayProducts();
+
+        }
+      );
 
     }
 
-  </style>
+
+    /*
+      SEARCH
+    */
+
+    document
+      .getElementById("searchInput")
+      .addEventListener(
+        "input",
+        displayProducts
+      );
 
 
-  <!-- =========================
-       PRODUCT SCHEMA
-  ========================= -->
+    /*
+      SEARCH ALL IMPORTANT JSON FIELDS
+    */
 
-  <script type="application/ld+json">
+    function searchProduct(product, searchText) {
 
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Nilkamal Furniture Catalogue in Thane",
-    "description": "Furniture catalogue of SHREE SHIVSHAKTI ENTERPRISES featuring Nilkamal furniture, Nilkamal chairs, plastic chairs, tables, cabinets and folding furniture.",
-    "url": "https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html"
-  }
+      if (!searchText) {
+        return true;
+      }
 
-  </script>
+      const text = searchText.toLowerCase();
 
-</head>
+      const searchableText = [
 
+        product.title,
 
-<body>
+        product.brand,
 
+        product.category,
 
-  <!-- =========================
-       HEADER
-  ========================= -->
+        product.description,
 
-  <header>
+        product.dimensions,
 
-    <div class="header-inner">
+        product.productDetails?.material,
 
-      <a
-        href="index.html"
-        class="logo"
-      >
-        SHREE SHIVSHAKTI ENTERPRISES
-      </a>
+        product.productDetails?.model,
 
-      <a
-        href="index.html"
-        class="home-link"
-      >
-        Home
-      </a>
+        product.productDetails?.color,
 
-    </div>
+        product.productDetails?.warranty
 
-  </header>
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+
+      return searchableText.includes(text);
+
+    }
 
 
-  <!-- =========================
-       HERO
-  ========================= -->
+    /*
+      DISPLAY PRODUCTS
+    */
 
-  <section class="hero">
+    function displayProducts() {
 
-    <div class="container">
+      const grid =
+        document.getElementById("productsGrid");
 
-      <h1>
-        Nilkamal Furniture Catalogue in Thane
-      </h1>
+      const noResults =
+        document.getElementById("noResults");
 
-      <p>
-        Browse Nilkamal furniture, Nilkamal chairs, plastic chairs,
-        tables, cabinets, folding furniture and steel furniture.
-        Select products and send your enquiry directly on WhatsApp.
-      </p>
+      const searchText =
+        document
+          .getElementById("searchInput")
+          .value
+          .trim();
+
+      grid.innerHTML = "";
+
+      const filteredProducts =
+        products.filter(product => {
+
+          const categoryMatch =
+            selectedCategory === "All" ||
+            product.category === selectedCategory;
+
+          const searchMatch =
+            searchProduct(
+              product,
+              searchText
+            );
+
+          return categoryMatch && searchMatch;
+
+        });
 
 
-      <!-- SEARCH -->
+      if (filteredProducts.length === 0) {
 
-      <div class="search-box">
+        noResults.style.display = "block";
 
-        <input
-          type="search"
-          id="searchInput"
-          placeholder="Search Nilkamal chair, table, cabinet..."
-          aria-label="Search furniture"
+        return;
+
+      }
+
+      noResults.style.display = "none";
+
+
+      filteredProducts.forEach(product => {
+
+        grid.appendChild(
+          createProductCard(product)
+        );
+
+      });
+
+    }
+
+
+    /*
+      CREATE PRODUCT CARD
+    */
+
+    function createProductCard(product) {
+
+      const card =
+        document.createElement("article");
+
+      card.className = "product-card";
+
+
+      /*
+        ONLY FIRST IMAGE
+      */
+
+      const image =
+        product.images?.[0] || "";
+
+
+      /*
+        DESCRIPTION
+        Remove HTML tags because card only
+        needs short plain text.
+      */
+
+      const tempDiv =
+        document.createElement("div");
+
+      tempDiv.innerHTML =
+        product.description || "";
+
+      const description =
+        tempDiv.textContent.trim();
+
+
+      /*
+        REVIEW DATA
+      */
+
+      const rating =
+        product.review?.reviewStars;
+
+      const reviewCount =
+        product.review?.reviewCount || 0;
+
+
+      let ratingHTML = "";
+
+      if (rating) {
+
+        const roundedRating =
+          Math.round(rating);
+
+        const stars =
+          "★".repeat(roundedRating) +
+          "☆".repeat(5 - roundedRating);
+
+        ratingHTML = `
+          <div class="rating">
+            <span class="stars">${stars}</span>
+            <span>${rating}</span>
+            <span class="review-count">
+              (${reviewCount})
+            </span>
+          </div>
+        `;
+
+      } else {
+
+        ratingHTML = `
+          <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="review-count">
+              (${reviewCount} reviews)
+            </span>
+          </div>
+        `;
+
+      }
+
+
+      card.innerHTML = `
+
+        <img
+          class="product-image"
+          src="${image}"
+          alt="${escapeHTML(product.title)}"
+          loading="lazy"
+          onerror="this.style.display='none'"
         >
 
-      </div>
+        <div class="product-content">
 
-
-      <!-- FILTERS -->
-
-      <div class="filters">
-
-        <button
-          class="filter-btn active"
-          data-category="all"
-        >
-          All
-        </button>
-
-        <button
-          class="filter-btn"
-          data-category="chair"
-        >
-          Chairs
-        </button>
-
-        <button
-          class="filter-btn"
-          data-category="table"
-        >
-          Tables
-        </button>
-
-        <button
-          class="filter-btn"
-          data-category="cabinet"
-        >
-          Cabinets
-        </button>
-
-        <button
-          class="filter-btn"
-          data-category="folding"
-        >
-          Folding
-        </button>
-
-        <button
-          class="filter-btn"
-          data-category="steel"
-        >
-          Steel
-        </button>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- =========================
-       PRODUCTS
-  ========================= -->
-
-  <main class="catalogue">
-
-    <div class="container">
-
-      <div
-        class="product-grid"
-        id="productGrid"
-      >
-
-
-        <!-- PRODUCT 1 -->
-
-        <article
-          class="product-card"
-          data-category="chair"
-          data-name="Nilkamal Chair"
-        >
-
-          <div class="product-image">
-
-            <img
-              src="images/products/nilkamal-chair.webp"
-              alt="Nilkamal Chair in Thane"
-              loading="lazy"
-            >
-
+          <div class="brand">
+            ${escapeHTML(product.brand || "")}
           </div>
 
+          <h2 class="product-title">
+            ${escapeHTML(product.title || "")}
+          </h2>
 
-          <div class="product-info">
-
-            <div class="product-brand">
-              Nilkamal
-            </div>
-
-            <h2 class="product-name">
-              Nilkamal Chair
-            </h2>
-
-            <p class="product-description">
-              Durable Nilkamal plastic chair for home,
-              office and commercial use.
-            </p>
-
-            <div class="product-price">
-              ₹1,290
-              <span class="price-note">
-                onwards
-              </span>
-            </div>
-
-
-            <div class="quantity-row">
-
-              <label>
-                Qty
-              </label>
-
-              <input
-                type="number"
-                class="quantity"
-                min="1"
-                value="1"
-              >
-
-            </div>
-
-
-            <button
-              class="enquiry-btn"
-              type="button"
-            >
-              Add to Enquiry
-            </button>
-
+          <div class="description">
+            ${escapeHTML(description)}
           </div>
 
-        </article>
+          ${ratingHTML}
 
+          <label class="qty-label">
+            Quantity
+          </label>
 
-        <!-- PRODUCT 2 -->
+          <input
+            type="number"
+            class="qty-input"
+            min="1"
+            value="1"
+            inputmode="numeric"
+          >
 
-        <article
-          class="product-card"
-          data-category="chair"
-          data-name="Nilkamal Plastic Chair"
-        >
+          <button
+            class="whatsapp-btn"
+            type="button"
+          >
+            Send Enquiry on WhatsApp
+          </button>
 
-          <div class="product-image">
+        </div>
 
-            <img
-              src="images/products/nilkamal-plastic-chair.webp"
-              alt="Nilkamal Plastic Chair Thane"
-              loading="lazy"
-            >
+      `;
 
-          </div>
 
+      /*
+        WHATSAPP BUTTON
+      */
 
-          <div class="product-info">
+      const button =
+        card.querySelector(".whatsapp-btn");
 
-            <div class="product-brand">
-              Nilkamal
-            </div>
+      const qtyInput =
+        card.querySelector(".qty-input");
 
-            <h2 class="product-name">
-              Nilkamal Plastic Chair
-            </h2>
 
-            <p class="product-description">
-              Strong plastic chair suitable for homes,
-              offices, shops and events.
-            </p>
+      button.addEventListener(
+        "click",
+        function() {
 
-            <div class="product-price">
-              ₹1,290
-              <span class="price-note">
-                onwards
-              </span>
-            </div>
+          sendWhatsAppEnquiry(
+            product,
+            qtyInput.value
+          );
 
+        }
+      );
 
-            <div class="quantity-row">
 
-              <label>
-                Qty
-              </label>
+      return card;
 
-              <input
-                type="number"
-                class="quantity"
-                min="1"
-                value="1"
-              >
+    }
 
-            </div>
 
+    /*
+      SEND WHATSAPP ENQUIRY
+    */
 
-            <button
-              class="enquiry-btn"
-              type="button"
-            >
-              Add to Enquiry
-            </button>
+    function sendWhatsAppEnquiry(
+      product,
+      quantity
+    ) {
 
-          </div>
+      quantity =
+        parseInt(quantity);
 
-        </article>
 
+      if (
+        !quantity ||
+        quantity < 1
+      ) {
 
-        <!-- PRODUCT 3 -->
+        alert(
+          "Please enter a valid quantity."
+        );
 
-        <article
-          class="product-card"
-          data-category="cabinet"
-          data-name="Nilkamal Cabinet"
-        >
+        return;
 
-          <div class="product-image">
+      }
 
-            <img
-              src="images/products/nilkamal-cabinet.webp"
-              alt="Nilkamal Cabinet Thane"
-              loading="lazy"
-            >
 
-          </div>
+      const image =
+        product.images?.[0] || "";
 
 
-          <div class="product-info">
+      const message =
 
-            <div class="product-brand">
-              Nilkamal
-            </div>
+`Hello SHREE SHIVSHAKTI ENTERPRISES,
 
-            <h2 class="product-name">
-              Nilkamal Cabinet
-            </h2>
+I want to enquire about this product.
 
-            <p class="product-description">
-              Practical Nilkamal storage cabinet for
-              home and office use.
-            </p>
+Product: ${product.title}
+Brand: ${product.brand || "N/A"}
+Quantity: ${quantity}
 
-            <div class="product-price">
-              ₹2,999
-              <span class="price-note">
-                onwards
-              </span>
-            </div>
+Product Image:
+${image}
 
+Please share the latest price and availability.`;
 
-            <div class="quantity-row">
 
-              <label>
-                Qty
-              </label>
+      const whatsappURL =
+        "https://wa.me/" +
+        WHATSAPP_NUMBER +
+        "?text=" +
+        encodeURIComponent(message);
 
-              <input
-                type="number"
-                class="quantity"
-                min="1"
-                value="1"
-              >
 
-            </div>
+      window.open(
+        whatsappURL,
+        "_blank"
+      );
 
+    }
 
-            <button
-              class="enquiry-btn"
-              type="button"
-            >
-              Add to Enquiry
-            </button>
 
-          </div>
+    /*
+      SECURITY / HTML ESCAPE
+    */
 
-        </article>
+    function escapeHTML(text) {
 
+      return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
 
-        <!-- PRODUCT 4 -->
+    }
 
-        <article
-          class="product-card"
-          data-category="table"
-          data-name="Plastic Table"
-        >
 
-          <div class="product-image">
+    /*
+      START
+    */
 
-            <img
-              src="images/products/plastic-table.webp"
-              alt="Plastic Furniture Table Thane"
-              loading="lazy"
-            >
+    loadProducts();
 
-          </div>
-
-
-          <div class="product-info">
-
-            <div class="product-brand">
-              Plastic Furniture
-            </div>
-
-            <h2 class="product-name">
-              Plastic Table
-            </h2>
-
-            <p class="product-description">
-              Heavy-duty plastic table for home,
-              events and commercial use.
-            </p>
-
-            <div class="product-price">
-              ₹1,200
-              <span class="price-note">
-                onwards
-              </span>
-            </div>
-
-
-            <div class="quantity-row">
-
-              <label>
-                Qty
-              </label>
-
-              <input
-                type="number"
-                class="quantity"
-                min="1"
-                value="1"
-              >
-
-            </div>
-
-
-            <button
-              class="enquiry-btn"
-              type="button"
-            >
-              Add to Enquiry
-            </button>
-
-          </div>
-
-        </article>
-
-
-        <!-- PRODUCT 5 -->
-
-        <article
-          class="product-card"
-          data-category="folding"
-          data-name="Plastic Folding Table"
-        >
-
-          <div class="product-image">
-
-            <img
-              src="images/products/plastic-folding-table.webp"
-              alt="Plastic Folding Table Thane"
-              loading="lazy"
-            >
-
-          </div>
-
-
-          <div class="product-info">
-
-            <div class="product-brand">
-              Folding Furniture
-            </div>
-
-            <h2 class="product-name">
-              Plastic Folding Table
-            </h2>
-
-            <p class="product-description">
-              Space-saving folding table for homes,
-              offices and events.
-            </p>
-
-            <div class="product-price">
-              ₹1,750
-              <span class="price-note">
-                onwards
-              </span>
-            </div>
-
-
-            <div class="quantity-row">
-
-              <label>
-                Qty
-              </label>
-
-              <input
-                type="number"
-                class="quantity"
-                min="1"
-                value="1"
-              >
-
-            </div>
-
-
-            <button
-              class="enquiry-btn"
-              type="button"
-            >
-              Add to Enquiry
-            </button>
-
-          </div>
-
-        </article>
-
-
-        <!-- PRODUCT 6 -->
-
-        <article
-          class="product-card"
-          data-category="folding"
-          data-name="Wooden Folding Table"
-        >
-
-          <div class="product-image">
-
-            <img
-              src="images/products/wooden-folding-table.webp"
-              alt="Wooden Folding Table Thane"
-              loading="lazy"
-            >
-
-          </div>
-
-
-          <div class="product-info">
-
-            <div class="product-brand">
-              Folding Furniture
-            </div>
-
-            <h2 class="product-name">
-              Wooden Folding Table
-            </h2>
-
-            <p class="product-description">
-              Folding wooden table suitable for home,
-              office and commercial requirements.
-            </p>
-
-            <div class="product-price">
-              ₹1,450
-              <span class="price-note">
-                onwards
-              </span>
-            </div>
-
-
-            <div class="quantity-row">
-
-              <label>
-                Qty
-              </label>
-
-              <input
-                type="number"
-                class="quantity"
-                min="1"
-                value="1"
-              >
-
-            </div>
-
-
-            <button
-              class="enquiry-btn"
-              type="button"
-            >
-              Add to Enquiry
-            </button>
-
-          </div>
-
-        </article>
-
-
-        <!-- PRODUCT 7 -->
-
-        <article
-          class="product-card"
-          data-category="steel"
-          data-name="Steel Cupboard"
-        >
-
-          <div class="product-image">
-
-            <img
-              src="images/products/steel-cupboard.webp"
-              alt="Steel Cupboard Thane"
-              loading="lazy"
-            >
-
-          </div>
-
-
-          <div class="product-info">
-
-            <div class="product-brand">
-              Steel Furniture
-            </div>
-
-            <h2 class="product-name">
-              Steel Cupboard
-            </h2>
-
-            <p class="product-description">
-              Strong steel storage cupboard for office,
-              home and commercial use.
-            </p>
-
-            <div class="product-price">
-              ₹4,750
-              <span c
+  </script></body>
+</html>
