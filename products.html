@@ -1,1498 +1,1405 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="robots" content="index, follow, max-image-preview:large">
-
-<title>Nilkamal Furniture Catalogue in Thane | SHREE SHIVSHAKTI ENTERPRISES</title>
-
-<meta name="description"
-content="Explore Nilkamal furniture in Thane from SHREE SHIVSHAKTI ENTERPRISES. Browse Nilkamal chairs, stools, cabinets and other furniture with prices and product details.">
-
-<link rel="canonical"
-href="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html">
-
-<meta property="og:title"
-content="Nilkamal Furniture Catalogue in Thane | SHREE SHIVSHAKTI ENTERPRISES">
-
-<meta property="og:description"
-content="Browse Nilkamal chairs, stools, cabinets and furniture products available from SHREE SHIVSHAKTI ENTERPRISES in Thane.">
-
-<meta property="og:type" content="website">
-
-<meta property="og:url"
-content="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html">
-
-<style>
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f7f7f8;
-  color: #111827;
-  line-height: 1.5;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-
-/* =========================
-   HEADER
-========================= */
-
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: #111827;
-  color: #fff;
-  box-shadow: 0 2px 10px rgba(0,0,0,.15);
-}
-
-.header-inner {
-  max-width: 1250px;
-  margin: auto;
-  padding: 13px 18px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-}
-
-.business-name {
-  font-size: 15px;
-  font-weight: 800;
-  letter-spacing: .3px;
-}
-
-.home-btn {
-  background: #fff;
-  color: #111827;
-  padding: 8px 13px;
-  border-radius: 7px;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-
-/* =========================
-   MAIN
-========================= */
-
-.container {
-  max-width: 1250px;
-  margin: auto;
-  padding: 18px;
-}
-
-
-/* =========================
-   HERO
-========================= */
-
-.hero {
-  background: #fff;
-  border-radius: 14px;
-  padding: 24px 20px;
-  margin-bottom: 18px;
-  box-shadow: 0 3px 16px rgba(0,0,0,.05);
-}
-
-.hero h1 {
-  margin: 0 0 8px;
-  font-size: clamp(25px, 4vw, 38px);
-  line-height: 1.2;
-}
-
-.hero p {
-  margin: 0;
-  color: #4b5563;
-  max-width: 850px;
-  font-size: 15px;
-}
-
-
-/* =========================
-   SEARCH
-========================= */
-
-.search-box {
-  margin-top: 18px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 13px 15px;
-  border: 1px solid #d1d5db;
-  border-radius: 9px;
-  outline: none;
-  font-size: 15px;
-  background: #fff;
-}
-
-.search-input:focus {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 3px rgba(37,99,235,.1);
-}
-
-
-/* =========================
-   CATEGORIES
-========================= */
-
-.categories {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 18px 0;
-}
-
-.category-btn {
-  border: 1px solid #d1d5db;
-  background: #fff;
-  color: #374151;
-  padding: 8px 12px;
-  border-radius: 7px;
-  font-size: 13px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.category-btn.active {
-  background: #111827;
-  color: #fff;
-  border-color: #111827;
-}
-
-
-/* =========================
-   RESULT COUNT
-========================= */
-
-.result-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 15px 0;
-}
-
-.result-count {
-  color: #6b7280;
-  font-size: 14px;
-}
-
-
-/* =========================
-   PRODUCT GRID
-========================= */
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
-}
-
-
-/* =========================
-   PRODUCT CARD
-========================= */
-
-.product-card {
-  position: relative;
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 11px;
-  overflow: hidden;
-  transition: transform .2s, box-shadow .2s;
-}
-
-.product-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 7px 20px rgba(0,0,0,.08);
-}
-
-
-/* =========================
-   IMAGE
-========================= */
-
-/*
-   No outside margin/padding
-   around product image.
-*/
-
-.product-image-wrap {
-  position: relative;
-  background: #f8fafc;
-  height: 235px;
-  margin: 0;
-  padding: 0;
-}
-
-.product-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  margin: 0;
-  padding: 0;
-}
-
-
-/* =========================
-   HOT BADGE
-========================= */
-
-.badges {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  display: flex;
-  z-index: 2;
-}
-
-.badge {
-  display: inline-block;
-  padding: 5px 9px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: .3px;
-}
-
-.hot-badge {
-  background: #dc2626;
-}
-
-
-/* =========================
-   CARD CONTENT
-========================= */
-
-.product-content {
-  padding: 13px;
-}
-
-.product-brand {
-  color: #6b7280;
-  font-size: 11px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: .4px;
-  margin-bottom: 4px;
-}
-
-.product-title {
-  font-size: 15px;
-  line-height: 1.35;
-  font-weight: 800;
-  margin: 0 0 7px;
-}
-
-.product-title a:hover {
-  color: #2563eb;
-}
-
-
-/* =========================
-   DESCRIPTION
-========================= */
-
-.product-description {
-  color: #6b7280;
-  font-size: 13px;
-  line-height: 1.45;
-
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-
-  overflow: hidden;
-  margin-bottom: 8px;
-}
-
-
-/* =========================
-   RATING
-========================= */
-
-.rating {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  margin-bottom: 8px;
-}
-
-.stars {
-  color: #f59e0b;
-  letter-spacing: .5px;
-}
-
-.review-count {
-  color: #6b7280;
-}
-
-
-/* =========================
-   PRICE
-========================= */
-
-.price-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 7px;
-  margin-bottom: 8px;
-}
-
-.sale-price {
-  font-size: 19px;
-  font-weight: 800;
-  color: #111827;
-}
-
-.mrp {
-  font-size: 12px;
-  color: #9ca3af;
-  text-decoration: line-through;
-}
-
-.discount {
-  color: #047857;
-  background: #ecfdf5;
-  padding: 3px 6px;
-  border-radius: 4px;
-  font-size: 10px;
-  font-weight: 800;
-}
-
-
-/* =========================
-   QUANTITY
-========================= */
-
-.quantity-row {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  margin-top: 9px;
-  margin-bottom: 9px;
-}
-
-.quantity-label {
-  font-size: 12px;
-  font-weight: 700;
-  color: #4b5563;
-}
-
-.quantity-input {
-  width: 65px;
-  padding: 7px;
-  border: 1px solid #d1d5db;
-  border-radius: 6px;
-  font-size: 13px;
-}
-
-
-/* =========================
-   WHATSAPP
-========================= */
-
-.whatsapp-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-
-  background: #16a34a;
-  color: #fff;
-
-  padding: 10px;
-  border-radius: 7px;
-
-  font-size: 13px;
-  font-weight: 800;
-
-  margin-top: 8px;
-}
-
-.whatsapp-btn:hover {
-  background: #15803d;
-}
-
-
-/* =========================
-   MESSAGE
-========================= */
-
-.message {
-  background: #fff;
-  border-radius: 10px;
-  padding: 50px 20px;
-  text-align: center;
-  color: #6b7280;
-}
-
-
-/* =========================
-   FOOTER
-========================= */
-
-footer {
-  margin-top: 45px;
-  padding: 25px 18px;
-  background: #111827;
-  color: #fff;
-  text-align: center;
-  font-size: 13px;
-}
-
-footer p {
-  margin: 4px 0;
-}
-
-
-/* =========================
-   TABLET
-========================= */
-
-@media (max-width: 1050px) {
-
-  .product-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-}
-
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 700px) {
-
-  .container {
-    padding: 12px;
-  }
-
-  .header-inner {
-    padding: 12px;
-  }
-
-  .business-name {
-    font-size: 13px;
-  }
-
-  .home-btn {
-    font-size: 12px;
-    padding: 7px 10px;
-  }
-
-  .hero {
-    padding: 20px 15px;
-  }
-
-  .product-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-  }
-
-  .product-image-wrap {
-    height: 180px;
-  }
-
-  .product-content {
-    padding: 10px;
-  }
-
-  .product-title {
-    font-size: 13px;
-  }
-
-  .product-description {
-    font-size: 11px;
-  }
-
-  .sale-price {
-    font-size: 17px;
-  }
-
-  .quantity-input {
-    width: 55px;
-  }
-
-}
-
-
-/* =========================
-   SMALL MOBILE
-========================= */
-
-@media (max-width: 380px) {
-
-  .product-grid {
-    gap: 8px;
-  }
-
-  .product-image-wrap {
-    height: 155px;
-  }
-
-  .product-content {
-    padding: 8px;
-  }
-
-  .product-title {
-    font-size: 12px;
-  }
-
-  .product-description {
-    -webkit-line-clamp: 2;
-  }
-
-  .sale-price {
-    font-size: 15px;
-  }
-
-}
-
-</style>
-
-
-<script type="application/ld+json" id="catalogSchema">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Nilkamal Furniture Catalogue in Thane",
-  "url": "https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html",
-  "about": {
-    "@type": "FurnitureStore",
-    "name": "SHREE SHIVSHAKTI ENTERPRISES",
-    "telephone": "+91-8268321227"
-  }
-}
-</script>
-
-</head>
-
-
-<body>
-
-
-<header class="header">
-
-  <div class="header-inner">
-
-    <div class="business-name">
-      SHREE SHIVSHAKTI ENTERPRISES
-    </div>
-
-    <a href="index.html"
-       class="home-btn">
-      Home
-    </a>
+  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">  <title>Nilkamal Furniture Catalogue in Thane | SHREE SHIVSHAKTI ENTERPRISES</title>  <meta name="description" content="Browse Nilkamal furniture in Thane from SHREE SHIVSHAKTI ENTERPRISES. Shop Nilkamal chairs, stools, cabinets, tables and furniture for home, office and bulk requirements.">  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">  <link rel="canonical" href="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html">  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nilkamal Furniture Catalogue in Thane">
+  <meta property="og:description" content="Browse Nilkamal furniture, chairs, stools and cabinets from SHREE SHIVSHAKTI ENTERPRISES, Thane.">
+  <meta property="og:url" content="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html">  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #f6f7f9;
+      color: #171717;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* HEADER */
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid #eceef1;
+    }
+
+    .header-inner {
+      max-width: 1400px;
+      margin: auto;
+      min-height: 64px;
+      padding: 0 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      min-width: 0;
+    }
+
+    .brand-name {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: .2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand-sub {
+      margin-top: 2px;
+      font-size: 11px;
+      color: #73777f;
+    }
+
+    .home-btn {
+      flex: 0 0 auto;
+      padding: 9px 15px;
+      border: 1px solid #e4e6ea;
+      border-radius: 999px;
+      background: #fff;
+      color: #222;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .home-btn:active {
+      transform: scale(.97);
+    }
+
+    /* PAGE */
+
+    .page {
+      width: min(1400px, calc(100% - 28px));
+      margin: auto;
+    }
+
+    .hero {
+      padding: 28px 0 18px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(25px, 4vw, 38px);
+      line-height: 1.12;
+      letter-spacing: -0.8px;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 9px 0 0;
+      color: #686d76;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    /* SEARCH */
+
+    .tools {
+      position: sticky;
+      top: 64px;
+      z-index: 900;
+      padding: 10px 0 12px;
+      background: rgba(246, 247, 249, .94);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    .search-wrap {
+      position: relative;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 17px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      color: #777;
+      pointer-events: none;
+    }
+
+    #searchInput {
+      width: 100%;
+      height: 52px;
+      padding: 0 48px;
+      border: 1px solid #e1e4e8;
+      border-radius: 18px;
+      outline: none;
+      background: #fff;
+      color: #171717;
+      box-shadow: 0 3px 14px rgba(0, 0, 0, .035);
+      transition: border-color .2s, box-shadow .2s;
+    }
+
+    #searchInput:focus {
+      border-color: #b8bec7;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, .07);
+    }
+
+    #searchInput::placeholder {
+      color: #999da5;
+    }
+
+    .clear-search {
+      display: none;
+      position: absolute;
+      right: 13px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 30px;
+      border: 0;
+      border-radius: 50%;
+      background: #f0f1f3;
+      color: #555;
+      cursor: pointer;
+    }
+
+    .clear-search.show {
+      display: block;
+    }
+
+    /* CATEGORY */
+
+    .categories {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 1px 2px;
+      scrollbar-width: none;
+    }
+
+    .categories::-webkit-scrollbar {
+      display: none;
+    }
+
+    .category-btn {
+      flex: 0 0 auto;
+      padding: 9px 15px;
+      border: 1px solid #e0e3e7;
+      border-radius: 999px;
+      background: #fff;
+      color: #555b64;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .category-btn.active {
+      background: #171717;
+      color: #fff;
+      border-color: #171717;
+    }
+
+    /* RESULT COUNT */
+
+    .result-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 13px 1px 14px;
+    }
+
+    .result-count {
+      color: #747982;
+      font-size: 13px;
+    }
+
+    .trust-mini {
+      color: #555b64;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* GRID */
+
+    #productsGrid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      padding-bottom: 45px;
+    }
+
+    /* CARD */
+
+    .product-card {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid #e7e9ed;
+      border-radius: 20px;
+      background: #fff;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, .035);
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 9px 25px rgba(0, 0, 0, .075);
+    }
+
+    .image-link {
+      display: block;
+    }
+
+    .product-image-wrap {
+      position: relative;
+      width: 100%;
+      height: 235px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #fafafa;
+    }
+
+    .product-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      object-fit: contain;
+      transition: transform .25s ease;
+    }
+
+    .product-card:hover .product-image {
+      transform: scale(1.025);
+    }
+
+    .hot-badge {
+      position: absolute;
+      left: 11px;
+      top: 11px;
+      padding: 6px 9px;
+      border-radius: 999px;
+      background: #dc2626;
+      color: #fff;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .5px;
+    }
+
+    .card-body {
+      padding: 14px;
+    }
+
+    .brand {
+      margin-bottom: 4px;
+      color: #777d86;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .product-title {
+      display: -webkit-box;
+      min-height: 42px;
+      margin: 0;
+      overflow: hidden;
+      color: #171717;
+      font-size: 15px;
+      line-height: 1.4;
+      font-weight: 750;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .product-title a:hover {
+      text-decoration: underline;
+    }
+
+    .description {
+      display: -webkit-box;
+      min-height: 39px;
+      margin: 7px 0 9px;
+      overflow: hidden;
+      color: #777d86;
+      font-size: 12px;
+      line-height: 1.5;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      min-height: 20px;
+      margin-bottom: 9px;
+    }
+
+    .stars {
+      color: #f59e0b;
+      font-size: 13px;
+      letter-spacing: -1px;
+    }
+
+    .review-count {
+      color: #7b8088;
+      font-size: 11px;
+    }
+
+    .price-row {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 12px;
+    }
+
+    .sale-price {
+      color: #111;
+      font-size: 19px;
+      font-weight: 850;
+    }
+
+    .mrp {
+      color: #999;
+      font-size: 12px;
+      text-decoration: line-through;
+    }
+
+    .discount {
+      color: #138a45;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .quantity-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 9px;
+    }
+
+    .qty-label {
+      color: #747982;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .qty-input {
+      width: 64px;
+      height: 34px;
+      padding: 0 8px;
+      border: 1px solid #e1e3e6;
+      border-radius: 10px;
+      background: #fafafa;
+      text-align: center;
+      outline: none;
+      font-size: 13px;
+    }
+
+    .whatsapp-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 43px;
+      border: 0;
+      border-radius: 13px;
+      background: #20a95a;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: filter .15s, transform .15s;
+    }
+
+    .whatsapp-btn:hover {
+      filter: brightness(.95);
+    }
+
+    .whatsapp-btn:active {
+      transform: scale(.98);
+    }
+
+    /* LOADING */
+
+    .loading {
+      grid-column: 1 / -1;
+      padding: 60px 20px;
+      text-align: center;
+      color: #777d86;
+    }
+
+    .loader {
+      width: 28px;
+      height: 28px;
+      margin: 0 auto 13px;
+      border: 3px solid #e3e5e8;
+      border-top-color: #222;
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* EMPTY */
+
+    .empty {
+      grid-column: 1 / -1;
+      padding: 55px 20px;
+      border: 1px solid #e6e8eb;
+      border-radius: 20px;
+      background: #fff;
+      text-align: center;
+    }
+
+    .empty-title {
+      margin-bottom: 6px;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .empty-text {
+      color: #777d86;
+      font-size: 13px;
+    }
+
+    .retry-btn {
+      margin-top: 16px;
+      padding: 10px 18px;
+      border: 0;
+      border-radius: 999px;
+      background: #171717;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* FOOTER */
+
+    footer {
+      padding: 25px 0 35px;
+      border-top: 1px solid #e5e7ea;
+      color: #777d86;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    footer strong {
+      color: #333;
+    }
+
+    /* TABLET */
+
+    @media (max-width: 1100px) {
+      #productsGrid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 700px) {
+      .header-inner {
+        min-height: 58px;
+        padding: 0 12px;
+      }
+
+      .brand-name {
+        font-size: 13px;
+      }
+
+      .brand-sub {
+        font-size: 10px;
+      }
+
+      .home-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+
+      .page {
+        width: min(100% - 18px, 650px);
+      }
+
+      .hero {
+        padding: 22px 0 13px;
+      }
+
+      .hero h1 {
+        font-size: 25px;
+      }
+
+      .hero p {
+        font-size: 13px;
+      }
+
+      .tools {
+        top: 58px;
+      }
+
+      #searchInput {
+        height: 48px;
+        border-radius: 16px;
+      }
+
+      #productsGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .product-card {
+        border-radius: 16px;
+      }
+
+      .product-image-wrap {
+        height: 185px;
+      }
+
+      .card-body {
+        padding: 11px;
+      }
+
+      .product-title {
+        font-size: 13px;
+        min-height: 37px;
+      }
+
+      .description {
+        font-size: 11px;
+        min-height: 34px;
+        margin-top: 5px;
+      }
+
+      .rating {
+        margin-bottom: 7px;
+      }
+
+      .stars {
+        font-size: 11px;
+      }
+
+      .review-count {
+        font-size: 10px;
+      }
+
+      .sale-price {
+        font-size: 16px;
+      }
+
+      .mrp,
+      .discount {
+        font-size: 10px;
+      }
+
+      .price-row {
+        gap: 5px;
+        margin-bottom: 9px;
+      }
+
+      .quantity-row {
+        gap: 5px;
+        margin-bottom: 7px;
+      }
+
+      .qty-label {
+        font-size: 10px;
+      }
+
+      .qty-input {
+        width: 52px;
+        height: 31px;
+        font-size: 12px;
+      }
+
+      .whatsapp-btn {
+        min-height: 39px;
+        border-radius: 11px;
+        font-size: 11px;
+      }
+
+      .hot-badge {
+        left: 8px;
+        top: 8px;
+        padding: 5px 7px;
+        font-size: 9px;
+      }
+
+      .trust-mini {
+        display: none;
+      }
+    }
+
+    /* VERY SMALL PHONES */
+
+    @media (max-width: 360px) {
+      .product-image-wrap {
+        height: 165px;
+      }
+
+      .card-body {
+        padding: 9px;
+      }
+
+      .product-title {
+        font-size: 12px;
+      }
+
+      .sale-price {
+        font-size: 15px;
+      }
+    }
+
+    /* REDUCED MOTION */
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style></head><body><header class="header">
+  <div class="header-inner"><div class="brand">
+  <div class="brand-name">SHREE SHIVSHAKTI ENTERPRISES</div>
+  <div class="brand-sub">Nilkamal Furniture Store • Thane</div>
+</div>
+
+<a class="home-btn" href="index.html" aria-label="Go to home">
+  ← Home
+</a>
 
   </div>
+</header><main class="page">  <section class="hero">
+    <h1>Nilkamal Furniture Catalogue</h1><p>
+  Browse Nilkamal chairs, stools, cabinets and furniture.
+  Check prices and enquire directly on WhatsApp.
+</p>
 
-</header>
+  </section>  <section class="tools" aria-label="Product search and categories"><div class="search-wrap">
 
+  <svg class="search-icon"
+       viewBox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2"
+       aria-hidden="true">
+    <circle cx="11" cy="11" r="7"></circle>
+    <path d="m20 20-4-4"></path>
+  </svg>
 
-<main class="container">
+  <input
+    id="searchInput"
+    type="search"
+    placeholder="Search chair, cabinet, stool, model..."
+    autocomplete="off"
+    spellcheck="false"
+    aria-label="Search products"
+  >
 
+  <button
+    id="clearSearch"
+    class="clear-search"
+    type="button"
+    aria-label="Clear search">
+    ×
+  </button>
 
-<section class="hero">
-
-  <h1>
-    Nilkamal Furniture Catalogue in Thane
-  </h1>
-
-  <p>
-    Explore Nilkamal furniture from
-    SHREE SHIVSHAKTI ENTERPRISES in Thane.
-    Browse plastic chairs, stools, step stools,
-    cabinets and other furniture products with
-    prices and product details.
-  </p>
-
-  <div class="search-box">
-
-    <input
-      id="searchInput"
-      class="search-input"
-      type="search"
-      placeholder="Search Nilkamal chair, stool, cabinet..."
-      aria-label="Search furniture products">
-
-  </div>
-
-</section>
-
-
-<div id="categories"
-     class="categories">
 </div>
 
 
-<div class="result-info">
-
-  <div id="resultCount"
-       class="result-count">
-    Loading products...
-  </div>
-
+<div id="categories" class="categories" aria-label="Product categories">
+  <button class="category-btn active" data-category="All">
+    All
+  </button>
 </div>
 
-
-<section id="productGrid"
-         class="product-grid"
-         aria-label="Nilkamal furniture products">
-</section>
-
-
-<div id="message"
-     class="message"
-     style="display:none;">
+  </section>  <div class="result-bar">
+    <div id="resultCount" class="result-count">
+      Loading products...
+    </div><div class="trust-mini">
+  Genuine Furniture • WhatsApp Enquiry
 </div>
 
+  </div>  <section
+    id="productsGrid"
+    aria-live="polite"><div class="loading">
+  <div class="loader"></div>
+  Loading products...
+</div>
 
-</main>
+  </section>  <footer>
+    <strong>SHREE SHIVSHAKTI ENTERPRISES</strong><br>
+    Nilkamal Furniture Store • Thane<br>
+    Retail &amp; Bulk Enquiries
+  </footer></main><script>
+"use strict";
 
+const PRODUCT_FILE = "product.json";
+const WHATSAPP_NUMBER = "918268321227";
 
-<footer>
+const grid = document.getElementById("productsGrid");
+const searchInput = document.getElementById("searchInput");
+const clearSearch = document.getElementById("clearSearch");
+const categoriesBox = document.getElementById("categories");
+const resultCount = document.getElementById("resultCount");
 
-  <p>
-    <strong>
-      SHREE SHIVSHAKTI ENTERPRISES
-    </strong>
-  </p>
-
-  <p>
-    Nilkamal Furniture Store in Thane
-  </p>
-
-  <p>
-    Chairs • Stools • Cabinets • Furniture
-  </p>
-
-  <p>
-    © <span id="year"></span>
-    SHREE SHIVSHAKTI ENTERPRISES
-  </p>
-
-</footer>
-
-
-<script>
-
-const BASE_URL =
-  "https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/";
-
-const WHATSAPP_NUMBER =
-  "918268321227";
-
-let products = [];
-
-let selectedCategory = "All";
+let allProducts = [];
+let activeCategory = "All";
 
 
-const productGrid =
-  document.getElementById("productGrid");
+/* -----------------------------
+   HELPERS
+----------------------------- */
 
-const categories =
-  document.getElementById("categories");
-
-const searchInput =
-  document.getElementById("searchInput");
-
-const resultCount =
-  document.getElementById("resultCount");
-
-const message =
-  document.getElementById("message");
-
-
-/* =========================
-   ESCAPE HTML
-========================= */
-
-function escapeHtml(value) {
-
-  if (
-    value === null ||
-    value === undefined
-  ) {
-    return "";
-  }
-
-  return String(value)
+function escapeHTML(value) {
+  return String(value ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
-
 }
 
 
-/* =========================
-   CLEAN TEXT
-========================= */
-
-function cleanText(value) {
-
-  if (!value) {
-    return "";
-  }
-
-  const div =
-    document.createElement("div");
-
-  div.innerHTML = value;
-
-  return (
-    div.textContent ||
-    div.innerText ||
-    ""
-  ).trim();
-
-}
-
-
-/* =========================
-   PRICE
-========================= */
-
-function getPrice(product) {
-
-  if (
-    product.discountPrice !== undefined &&
-    product.discountPrice !== null &&
-    product.discountPrice !== ""
-  ) {
-    return Number(product.discountPrice);
-  }
-
-  if (
-    product.salePrice !== undefined &&
-    product.salePrice !== null &&
-    product.salePrice !== ""
-  ) {
-    return Number(product.salePrice);
-  }
-
-  if (
-    product.price !== undefined &&
-    product.price !== null &&
-    product.price !== ""
-  ) {
-    return Number(product.price);
-  }
-
-  return null;
-}
-
-
-function formatPrice(price) {
-
-  if (
-    price === null ||
-    price === undefined ||
-    isNaN(price)
-  ) {
-    return "";
-  }
-
-  return "₹" +
-    Number(price)
-      .toLocaleString("en-IN");
-
-}
-
-
-/* =========================
-   IMAGE
-========================= */
-
-function getFirstImage(product) {
-
-  if (
-    Array.isArray(product.images) &&
-    product.images.length
-  ) {
+function getImage(product) {
+  if (Array.isArray(product.images) && product.images.length) {
     return product.images[0];
   }
 
-  return (
-    BASE_URL +
-    "images/placeholder.jpg"
-  );
-
-}
-
-
-/* =========================
-   RATING
-========================= */
-
-function getRating(product) {
-
-  const review =
-    product.review ||
-    product.reviews ||
-    {};
-
-  return {
-
-    rating:
-      review.reviewStars ||
-      review.rating ||
-      product.rating,
-
-    count:
-      review.reviewCount ||
-      product.reviewCount
-
-  };
-
-}
-
-
-function renderRating(product) {
-
-  const data =
-    getRating(product);
-
-  if (
-    !data.rating ||
-    Number(data.rating) <= 0
-  ) {
-    return "";
-  }
-
-  const rounded =
-    Math.min(
-      5,
-      Math.max(
-        0,
-        Math.round(
-          Number(data.rating)
-        )
-      )
-    );
-
-  const stars =
-    "★".repeat(rounded) +
-    "☆".repeat(5 - rounded);
-
-  return `
-
-    <div class="rating">
-
-      <span class="stars">
-        ${stars}
-      </span>
-
-      <strong>
-        ${Number(data.rating).toFixed(1)}
-      </strong>
-
-      ${
-        data.count
-        ? `
-          <span class="review-count">
-            (${Number(data.count).toLocaleString("en-IN")})
-          </span>
-        `
-        : ""
-      }
-
-    </div>
-
-  `;
-
-}
-
-
-/* =========================
-   HOT BADGE ONLY
-========================= */
-
-function renderBadges(product) {
-
-  if (
-    product.hotSale === true
-  ) {
-
-    return `
-      <span class="badge hot-badge">
-        HOT
-      </span>
-    `;
-
+  if (product.image) {
+    return product.image;
   }
 
   return "";
-
 }
 
 
-/* =========================
-   DESCRIPTION
-========================= */
+function getDescription(product) {
+  let text = product.description || "";
 
-function renderDescription(product) {
+  const temp = document.createElement("div");
+  temp.innerHTML = text;
 
-  const text =
-    cleanText(
-      product.description
-    );
+  text = temp.textContent || temp.innerText || "";
 
-  if (!text) {
+  return text.trim();
+}
+
+
+function getPrice(product) {
+  return Number(
+    product.discountPrice ??
+    product.salePrice ??
+    product.price ??
+    product.MRP ??
+    0
+  );
+}
+
+
+function getMRP(product) {
+  return Number(
+    product.MRP ??
+    product.mrp ??
+    0
+  );
+}
+
+
+function getDiscount(product) {
+  if (product.discountPercentage !== undefined) {
+    return Number(product.discountPercentage) || 0;
+  }
+
+  const mrp = getMRP(product);
+  const price = getPrice(product);
+
+  if (mrp > price && price > 0) {
+    return Math.round(((mrp - price) / mrp) * 100);
+  }
+
+  return 0;
+}
+
+
+function formatPrice(value) {
+  if (!value || value <= 0) {
     return "";
   }
 
-  return escapeHtml(text);
-
+  return "₹" + Math.round(value).toLocaleString("en-IN");
 }
 
 
-/* =========================
-   PRODUCT CARD
-========================= */
+function getReviewCount(product) {
+  if (product.reviewCount !== undefined) {
+    return product.reviewCount;
+  }
 
-function createProductCard(product) {
+  if (product.review && typeof product.review === "object") {
+    return product.review.reviewCount || 0;
+  }
 
-  const image =
-    getFirstImage(product);
+  if (product.reviews !== undefined) {
+    return product.reviews;
+  }
 
-  const price =
-    getPrice(product);
-
-  const mrp =
-    product.MRP ??
-    product.mrp;
-
-  const discount =
-    product.discountPercentage;
-
-  const description =
-    renderDescription(product);
-
-  const productUrl =
-    `product-details.html?id=${encodeURIComponent(product.id)}`;
-
-
-  return `
-
-    <article class="product-card">
-
-
-      <div class="product-image-wrap">
-
-        <div class="badges">
-
-          ${renderBadges(product)}
-
-        </div>
-
-
-        <a
-          href="${productUrl}"
-          aria-label="View ${escapeHtml(product.title)}">
-
-          <img
-            class="product-image"
-            src="${escapeHtml(image)}"
-            alt="${escapeHtml(product.title)} - ${escapeHtml(product.brand || "Nilkamal")} furniture"
-            width="500"
-            height="500"
-            loading="lazy">
-
-        </a>
-
-      </div>
-
-
-      <div class="product-content">
-
-
-        <div class="product-brand">
-          ${escapeHtml(product.brand || "Nilkamal")}
-        </div>
-
-
-        <h2 class="product-title">
-
-          <a href="${productUrl}">
-            ${escapeHtml(product.title)}
-          </a>
-
-        </h2>
-
-
-        ${
-          description
-          ? `
-            <div class="product-description">
-              ${description}
-            </div>
-          `
-          : ""
-        }
-
-
-        ${renderRating(product)}
-
-
-        <div class="price-row">
-
-          ${
-            price !== null
-            ? `
-              <span class="sale-price">
-                ${formatPrice(price)}
-              </span>
-            `
-            : ""
-          }
-
-
-          ${
-            mrp !== undefined &&
-            mrp !== null &&
-            Number(mrp) > 0
-            ? `
-              <span class="mrp">
-                ${formatPrice(Number(mrp))}
-              </span>
-            `
-            : ""
-          }
-
-
-          ${
-            discount !== undefined &&
-            discount !== null &&
-            Number(discount) > 0
-            ? `
-              <span class="discount">
-                ${Number(discount)}% OFF
-              </span>
-            `
-            : ""
-          }
-
-        </div>
-
-
-        <div class="quantity-row">
-
-          <span class="quantity-label">
-            Qty
-          </span>
-
-          <input
-            class="quantity-input"
-            type="number"
-            min="1"
-            value="1"
-            data-product-id="${escapeHtml(product.id)}"
-            aria-label="Quantity for ${escapeHtml(product.title)}">
-
-        </div>
-
-
-        <a
-          class="whatsapp-btn"
-          href="#"
-          target="_blank"
-          rel="noopener"
-          data-whatsapp-id="${escapeHtml(product.id)}">
-
-          Enquire on WhatsApp
-
-        </a>
-
-
-      </div>
-
-    </article>
-
-  `;
-
+  return 0;
 }
 
 
-/* =========================
-   WHATSAPP
-========================= */
+function getStars(product) {
+  let rating = null;
 
-function setupWhatsAppButtons() {
+  if (product.rating !== undefined) {
+    rating = Number(product.rating);
+  }
 
-  document
-    .querySelectorAll(
-      "[data-whatsapp-id]"
-    )
-    .forEach(button => {
+  if (
+    product.review &&
+    typeof product.review === "object" &&
+    product.review.reviewStars !== null &&
+    product.review.reviewStars !== undefined
+  ) {
+    rating = Number(product.review.reviewStars);
+  }
 
-      const id =
-        button.dataset.whatsappId;
+  if (!rating || rating < 1) {
+    return "★★★★★";
+  }
 
-      const product =
-        products.find(
-          item =>
-            String(item.id) ===
-            String(id)
-        );
+  const rounded = Math.max(1, Math.min(5, Math.round(rating)));
 
-      if (!product) {
-        return;
-      }
-
-      const quantityInput =
-        document.querySelector(
-          `.quantity-input[data-product-id="${CSS.escape(id)}"]`
-        );
-
-
-      function updateLink() {
-
-        const quantity =
-          Math.max(
-            1,
-            Number(
-              quantityInput
-                ? quantityInput.value
-                : 1
-            ) || 1
-          );
-
-
-        const price =
-          getPrice(product);
-
-
-        const productUrl =
-          BASE_URL +
-          "product-details.html?id=" +
-          encodeURIComponent(product.id);
-
-
-        let message =
-          "Hello SHREE SHIVSHAKTI ENTERPRISES,%0A%0A";
-
-        message +=
-          `I am interested in:%0A`;
-
-        message +=
-          `${product.title}%0A`;
-
-        message +=
-          `Quantity: ${quantity}%0A`;
-
-
-        if (product.brand) {
-
-          message +=
-            `Brand: ${product.brand}%0A`;
-
-        }
-
-
-        if (
-          price !== null &&
-          !isNaN(price)
-        ) {
-
-          message +=
-            `Price: ${formatPrice(price)}%0A`;
-
-        }
-
-
-        message +=
-          `%0AProduct Page:%0A${productUrl}`;
-
-
-        button.href =
-          `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
-
-      }
-
-
-      if (quantityInput) {
-
-        quantityInput.addEventListener(
-          "input",
-          updateLink
-        );
-
-      }
-
-
-      updateLink();
-
-    });
-
+  return "★".repeat(rounded) + "☆".repeat(5 - rounded);
 }
 
-
-/* =========================
-   CATEGORIES
-========================= */
-
-function renderCategories() {
-
-  const uniqueCategories = [
-    "All",
-    ...new Set(
-      products
-        .map(
-          product =>
-            product.category
-        )
-        .filter(Boolean)
-    )
-  ];
-
-
-  categories.innerHTML =
-    uniqueCategories
-      .map(
-        category => `
-
-          <button
-            class="category-btn ${
-              category === "All"
-                ? "active"
-                : ""
-            }"
-            data-category="${escapeHtml(category)}">
-
-            ${escapeHtml(category)}
-
-          </button>
-
-        `
-      )
-      .join("");
-
-
-  categories
-    .querySelectorAll(
-      ".category-btn"
-    )
-    .forEach(button => {
-
-      button.addEventListener(
-        "click",
-        () => {
-
-          selectedCategory =
-            button.dataset.category;
-
-
-          categories
-            .querySelectorAll(
-              ".category-btn"
-            )
-            .forEach(btn =>
-              btn.classList.remove(
-                "active"
-              )
-            );
-
-
-          button.classList.add(
-            "active"
-          );
-
-
-          renderProducts();
-
-        }
-      );
-
-    });
-
-}
-
-
-/* =========================
-   SEARCH TEXT
-========================= */
 
 function getSearchText(product) {
-
   const details =
-    product.productDetails ||
-    {};
-
-
-  /*
-    Dimensions intentionally
-    excluded from search.
-  */
+    product.productDetails &&
+    typeof product.productDetails === "object"
+      ? product.productDetails
+      : {};
 
   return [
-
     product.title,
-
     product.brand,
-
     product.category,
-
     product.subcategory,
-
     product.description,
-
     details.material,
-
     details.model,
-
     details.warranty,
-
     details.capacity,
-
     details.loadCapacity
-
   ]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
-
 }
 
 
-/* =========================
-   FILTER
-========================= */
+/* -----------------------------
+   CARD
+----------------------------- */
 
-function getFilteredProducts() {
+function createProductCard(product, index) {
+
+  const id = product.id || "";
+  const title = product.title || "Nilkamal Furniture";
+  const image = getImage(product);
+
+  const price = getPrice(product);
+  const mrp = getMRP(product);
+  const discount = getDiscount(product);
+
+  const reviewCount = getReviewCount(product);
+  const stars = getStars(product);
+
+  const description =
+    getDescription(product) ||
+    "Quality furniture for home, office and commercial use.";
+
+  const brand =
+    product.brand ||
+    "Nilkamal";
+
+  const detailURL =
+    "product-details.html?id=" +
+    encodeURIComponent(id);
+
+  const safeTitle = escapeHTML(title);
+  const safeBrand = escapeHTML(brand);
+  const safeDescription = escapeHTML(description);
+
+  const imageHTML = image
+    ? `
+      <img
+        class="product-image"
+        src="${escapeHTML(image)}"
+        alt="${safeTitle}"
+        width="500"
+        height="500"
+        ${index < 4 ? 'fetchpriority="high"' : 'loading="lazy"'}
+        decoding="async"
+        onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22500%22 height=%22500%22 viewBox=%220 0 500 500%22%3E%3Crect width=%22500%22 height=%22500%22 fill=%22%23f4f4f4%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 font-family=%22Arial%22 font-size=%2220%22 fill=%22%23999%22%3EImage unavailable%3C/text%3E%3C/svg%3E';"
+      >
+    `
+    : `
+      <div
+        style="
+          width:100%;
+          height:100%;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          color:#999;
+          font-size:12px;
+        ">
+        Image unavailable
+      </div>
+    `;
+
+  const hotBadge =
+    product.hotSale === true
+      ? `<span class="hot-badge">HOT</span>`
+      : "";
+
+  const priceHTML =
+    price > 0
+      ? `
+        <div class="price-row">
+
+          <span class="sale-price">
+            ${formatPrice(price)}
+          </span>
+
+          ${
+            mrp > price
+              ? `<span class="mrp">${formatPrice(mrp)}</span>`
+              : ""
+          }
+
+          ${
+            discount > 0
+              ? `<span class="discount">${discount}% OFF</span>`
+              : ""
+          }
+
+        </div>
+      `
+      : `
+        <div class="price-row">
+          <span class="sale-price">Get Price</span>
+        </div>
+      `;
+
+
+  return `
+    <article class="product-card">
+
+      <a
+        class="image-link"
+        href="${detailURL}"
+        aria-label="View ${safeTitle}">
+
+        <div class="product-image-wrap">
+
+          ${imageHTML}
+
+          ${hotBadge}
+
+        </div>
+
+      </a>
+
+
+      <div class="card-body">
+
+        <div class="brand">
+          ${safeBrand}
+        </div>
+
+
+        <h2 class="product-title">
+          <a href="${detailURL}">
+            ${safeTitle}
+          </a>
+        </h2>
+
+
+        <div class="description">
+          ${safeDescription}
+        </div>
+
+
+        <div class="rating">
+
+          <span class="stars" aria-label="Rating">
+            ${stars}
+          </span>
+
+          ${
+            reviewCount
+              ? `<span class="review-count">${escapeHTML(reviewCount)} reviews</span>`
+              : ""
+          }
+
+        </div>
+
+
+        ${priceHTML}
+
+
+        <div class="quantity-row">
+
+          <span class="qty-label">
+            Quantity
+          </span>
+
+          <input
+            class="qty-input"
+            type="number"
+            min="1"
+            value="1"
+            inputmode="numeric"
+            aria-label="Quantity for ${safeTitle}"
+          >
+
+        </div>
+
+
+        <button
+          class="whatsapp-btn"
+          type="button"
+          data-id="${escapeHTML(id)}">
+
+          WhatsApp Enquiry
+
+        </button>
+
+      </div>
+
+    </article>
+  `;
+}
+
+
+/* -----------------------------
+   WHATSAPP
+----------------------------- */
+
+function sendWhatsApp(product) {
+
+  const card =
+    document.querySelector(
+      `.whatsapp-btn[data-id="${CSS.escape(String(product.id || ""))}"]`
+    )?.closest(".product-card");
+
+  const qty =
+    card?.querySelector(".qty-input")?.value || 1;
+
+  const title = product.title || "Product";
+
+  const price = getPrice(product);
+
+  const detailURL =
+    window.location.origin +
+    window.location.pathname.replace(
+      /products\.html.*$/i,
+      "product-details.html?id=" +
+      encodeURIComponent(product.id || "")
+    );
+
+  const message =
+`Hello SHREE SHIVSHAKTI ENTERPRISES,
+
+I am interested in this product:
+
+Product: ${title}
+Quantity: ${qty}
+${price > 0 ? `Price: ${formatPrice(price)}` : ""}
+
+Product Details:
+${detailURL}
+
+Please share availability and final price.`;
+
+  const url =
+    "https://wa.me/" +
+    WHATSAPP_NUMBER +
+    "?text=" +
+    encodeURIComponent(message);
+
+  window.open(url, "_blank", "noopener");
+}
+
+
+/* -----------------------------
+   RENDER
+----------------------------- */
+
+function renderProducts() {
 
   const search =
     searchInput.value
       .trim()
       .toLowerCase();
 
+  const filtered = allProducts.filter(product => {
 
-  return products.filter(
-    product => {
+    const categoryMatch =
+      activeCategory === "All" ||
+      String(product.category || "").toLowerCase() ===
+      activeCategory.toLowerCase();
 
-      const categoryMatch =
-        selectedCategory === "All" ||
-        product.category ===
-          selectedCategory;
+    const searchMatch =
+      !search ||
+      getSearchText(product).includes(search);
 
-
-      const searchMatch =
-        !search ||
-        getSearchText(product)
-          .includes(search);
-
-
-      return (
-        categoryMatch &&
-        searchMatch
-      );
-
-    }
-  );
-
-}
-
-
-/* =========================
-   RENDER
-========================= */
-
-function renderProducts() {
-
-  const filtered =
-    getFilteredProducts();
+    return categoryMatch && searchMatch;
+  });
 
 
   resultCount.textContent =
-    `${filtered.length} product${
-      filtered.length === 1
-        ? ""
-        : "s"
-    } found`;
+    `${filtered.length} ${filtered.length === 1 ? "product" : "products"}`;
 
 
   if (!filtered.length) {
 
-    productGrid.innerHTML = "";
+    grid.innerHTML = `
+      <div class="empty">
 
-    message.style.display =
-      "block";
+        <div class="empty-title">
+          No products found
+        </div>
 
-    message.innerHTML = `
-      <strong>
-        No products found
-      </strong>
+        <div class="empty-text">
+          Try another product name or category.
+        </div>
 
-      <br>
+        <button
+          class="retry-btn"
+          type="button"
+          id="resetFilters">
 
-      Try another search or category.
+          Clear Search
+
+        </button>
+
+      </div>
     `;
 
-    return;
+    document
+      .getElementById("resetFilters")
+      ?.addEventListener("click", resetFilters);
 
+    return;
   }
 
 
-  message.style.display =
-    "none";
-
-
-  productGrid.innerHTML =
+  grid.innerHTML =
     filtered
-      .map(
-        product =>
-          createProductCard(product)
+      .map((product, index) =>
+        createProductCard(product, index)
       )
       .join("");
 
 
-  setupWhatsAppButtons();
+  grid
+    .querySelectorAll(".whatsapp-btn")
+    .forEach(button => {
 
+      button.addEventListener("click", () => {
+
+        const product =
+          allProducts.find(
+            item =>
+              String(item.id) ===
+              String(button.dataset.id)
+          );
+
+        if (product) {
+          sendWhatsApp(product);
+        }
+
+      });
+
+    });
 }
 
 
-/* =========================
+/* -----------------------------
+   CATEGORIES
+----------------------------- */
+
+function buildCategories() {
+
+  const categories = [
+    ...new Set(
+      allProducts
+        .map(product => product.category)
+        .filter(Boolean)
+    )
+  ].sort();
+
+
+  categoriesBox.innerHTML = `
+    <button
+      class="category-btn active"
+      data-category="All">
+      All
+    </button>
+  `;
+
+
+  categories.forEach(category => {
+
+    const button =
+      document.createElement("button");
+
+    button.className = "category-btn";
+    button.dataset.category = category;
+    button.textContent = category;
+
+    categoriesBox.appendChild(button);
+
+  });
+
+
+  categoriesBox
+    .querySelectorAll(".category-btn")
+    .forEach(button => {
+
+      button.addEventListener("click", () => {
+
+        activeCategory =
+          button.dataset.category;
+
+        categoriesBox
+          .querySelectorAll(".category-btn")
+          .forEach(btn =>
+            btn.classList.remove("active")
+          );
+
+        button.classList.add("active");
+
+        renderProducts();
+
+      });
+
+    });
+}
+
+
+/* -----------------------------
+   RESET
+----------------------------- */
+
+function resetFilters() {
+
+  searchInput.value = "";
+  activeCategory = "All";
+
+  clearSearch.classList.remove("show");
+
+  categoriesBox
+    .querySelectorAll(".category-btn")
+    .forEach(btn => {
+      btn.classList.toggle(
+        "active",
+        btn.dataset.category === "All"
+      );
+    });
+
+  renderProducts();
+}
+
+
+/* -----------------------------
+   SEARCH
+----------------------------- */
+
+searchInput.addEventListener(
+  "input",
+  () => {
+
+    if (searchInput.value.trim()) {
+      clearSearch.classList.add("show");
+    } else {
+      clearSearch.classList.remove("show");
+    }
+
+    renderProducts();
+
+  }
+);
+
+
+clearSearch.addEventListener(
+  "click",
+  () => {
+
+    searchInput.value = "";
+    clearSearch.classList.remove("show");
+
+    searchInput.focus();
+
+    renderProducts();
+
+  }
+);
+
+
+/* -----------------------------
    LOAD JSON
-========================= */
+----------------------------- */
 
 async function loadProducts() {
 
   try {
 
+    resultCount.textContent =
+      "Loading products...";
+
+
     const response =
       await fetch(
-        "product.json",
+        PRODUCT_FILE + "?v=" + Date.now(),
         {
           cache: "no-store"
         }
@@ -1500,11 +1407,9 @@ async function loadProducts() {
 
 
     if (!response.ok) {
-
       throw new Error(
-        "product.json could not be loaded"
+        "Unable to load product.json"
       );
-
     }
 
 
@@ -1512,7 +1417,7 @@ async function loadProducts() {
       await response.json();
 
 
-    products =
+    const products =
       Array.isArray(data)
         ? data
         : Array.isArray(data.products)
@@ -1520,82 +1425,93 @@ async function loadProducts() {
           : [];
 
 
-    if (!products.length) {
+    /*
+      Remove duplicate product IDs.
+      Products without an ID are also kept.
+    */
 
-      throw new Error(
-        "No products found"
-      );
+    const unique = new Map();
 
+    products.forEach(product => {
+
+      if (!product || typeof product !== "object") {
+        return;
+      }
+
+      const id =
+        String(
+          product.id ??
+          Math.random()
+        );
+
+      if (!unique.has(id)) {
+        unique.set(id, product);
+      }
+
+    });
+
+
+    allProducts =
+      [...unique.values()];
+
+
+    if (!allProducts.length) {
+
+      grid.innerHTML = `
+        <div class="empty">
+
+          <div class="empty-title">
+            No products available
+          </div>
+
+          <div class="empty-text">
+            Product catalogue is currently being updated.
+          </div>
+
+        </div>
+      `;
+
+      resultCount.textContent =
+        "0 products";
+
+      return;
     }
 
 
-    /*
-      Remove duplicate IDs.
-    */
-
-    const unique =
-      new Map();
-
-
-    products.forEach(
-      product => {
-
-        if (
-          product &&
-          product.id !== undefined
-        ) {
-
-          unique.set(
-            String(product.id),
-            product
-          );
-
-        }
-
-      }
-    );
-
-
-    products =
-      Array.from(
-        unique.values()
-      );
-
-
-    renderCategories();
-
+    buildCategories();
     renderProducts();
 
 
   } catch (error) {
 
-    console.error(
-      "Catalogue loading error:",
-      error
-    );
+    console.error(error);
 
 
     resultCount.textContent =
       "Unable to load products";
 
 
-    message.style.display =
-      "block";
+    grid.innerHTML = `
+      <div class="empty">
 
+        <div class="empty-title">
+          Catalogue temporarily unavailable
+        </div>
 
-    message.innerHTML = `
+        <div class="empty-text">
+          Please refresh the page and try again.
+        </div>
 
-      <strong>
-        Products could not be loaded.
-      </strong>
+        <button
+          class="retry-btn"
+          type="button"
+          onclick="location.reload()">
 
-      <br><br>
+          Refresh Catalogue
 
-      Please check that
-      <b>product.json</b>
-      is uploaded in the same folder
-      as this products.html file.
+        </button>
 
+      </div>
     `;
 
   }
@@ -1603,33 +1519,11 @@ async function loadProducts() {
 }
 
 
-/* =========================
-   SEARCH
-========================= */
-
-searchInput.addEventListener(
-  "input",
-  renderProducts
-);
-
-
-/* =========================
-   YEAR
-========================= */
-
-document
-  .getElementById("year")
-  .textContent =
-  new Date().getFullYear();
-
-
-/* =========================
+/* -----------------------------
    START
-========================= */
+----------------------------- */
 
 loadProducts();
 
-</script>
-
-</body>
+</script></body>
 </html>
