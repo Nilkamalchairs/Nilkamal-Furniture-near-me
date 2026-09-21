@@ -1,0 +1,1040 @@
+<!DOCTYPE html><html lang="en"><head>  <meta charset="UTF-8"><meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+
+«»
+
+  <title>Product Details | SHREE SHIVSHAKTI ENTERPRISES</title><meta
+name="description"
+content="View complete product details, specifications, price and enquiry options from SHREE SHIVSHAKTI ENTERPRISES."
+
+«»
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.5;
+    }
+
+    /* HEADER */
+
+    header {
+      background: #ffffff;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .header-inner {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .store-name {
+      text-align: center;
+      font-size: 19px;
+      font-weight: 800;
+    }
+
+    .store-location {
+      text-align: center;
+      color: #777;
+      font-size: 13px;
+      margin-top: 3px;
+    }
+
+    /* MAIN */
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 15px;
+    }
+
+    /* BACK */
+
+    .back-button {
+      display: inline-block;
+      text-decoration: none;
+      color: #333;
+      background: #fff;
+      padding: 9px 14px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 14px;
+      box-shadow: 0 2px 7px rgba(0,0,0,0.07);
+    }
+
+    /* PRODUCT */
+
+    .product-box {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    /* IMAGE GALLERY */
+
+    .gallery {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: thin;
+      background: #fff;
+    }
+
+    .gallery::-webkit-scrollbar {
+      height: 5px;
+    }
+
+    .gallery-image {
+      flex: 0 0 100%;
+      width: 100%;
+      height: auto;
+      max-height: 500px;
+      object-fit: contain;
+      scroll-snap-align: start;
+      background: #fff;
+      display: block;
+    }
+
+    /* PRODUCT CONTENT */
+
+    .product-content {
+      padding: 18px;
+    }
+
+    .brand {
+      font-size: 13px;
+      color: #777;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .title {
+      font-size: 25px;
+      line-height: 1.25;
+      margin-bottom: 9px;
+    }
+
+    /* RATING */
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 14px;
+      font-size: 14px;
+    }
+
+    .stars {
+      color: #f5a623;
+      letter-spacing: 1px;
+      font-size: 18px;
+    }
+
+    .review-count {
+      color: #666;
+    }
+
+    /* PRICE */
+
+    .price-box {
+      background: #f8f8f8;
+      padding: 14px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .mrp {
+      color: #777;
+      font-size: 14px;
+    }
+
+    .mrp-value {
+      text-decoration: line-through;
+    }
+
+    .sale-price {
+      font-size: 26px;
+      font-weight: 800;
+      margin-top: 3px;
+    }
+
+    .discount {
+      display: inline-block;
+      margin-top: 5px;
+      padding: 4px 8px;
+      background: #e8f7ed;
+      color: #16803c;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    /* DESCRIPTION */
+
+    .section {
+      margin-top: 25px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .description {
+      color: #444;
+      font-size: 15px;
+    }
+
+    .description p {
+      margin-bottom: 10px;
+    }
+
+    .description ul {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .description li {
+      margin-bottom: 5px;
+    }
+
+    /* DETAILS */
+
+    .details-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .details-table tr {
+      border-bottom: 1px solid #eee;
+    }
+
+    .details-table td {
+      padding: 11px 5px;
+      vertical-align: top;
+    }
+
+    .details-table td:first-child {
+      width: 40%;
+      color: #666;
+      font-weight: 600;
+    }
+
+    .details-table td:last-child {
+      font-weight: 600;
+    }
+
+    /* WHATSAPP */
+
+    .enquiry-box {
+      margin-top: 28px;
+    }
+
+    .qty-label {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .qty-input {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .whatsapp-button {
+      display: block;
+      width: 100%;
+      border: none;
+      background: #25D366;
+      color: white;
+      padding: 14px;
+      border-radius: 9px;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .whatsapp-button:active {
+      transform: scale(0.98);
+    }
+
+    /* ERROR */
+
+    .error {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .error h2 {
+      margin-bottom: 10px;
+    }
+
+    /* DESKTOP */
+
+    @media (min-width: 700px) {
+
+      .product-box {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+
+      .gallery {
+        height: 100%;
+        align-self: start;
+      }
+
+      .gallery-image {
+        height: 500px;
+      }
+
+      .product-content {
+        padding: 30px;
+      }
+
+      .title {
+        font-size: 30px;
+      }
+
+    }
+
+  </style></head><body>  <!-- HEADER -->  <header><div class="header-inner">
+
+  <div class="store-name">
+    SHREE SHIVSHAKTI ENTERPRISES
+  </div>
+
+  <div class="store-location">
+    Nilkamal Furniture Store in Thane
+  </div>
+
+</div>
+
+  </header>  <main class="container"><a
+  href="products.html"
+  class="back-button"
+>
+  ← Back to Catalogue
+</a>
+
+
+<div id="loading">
+  Loading product...
+</div>
+
+
+<div
+  id="productBox"
+  class="product-box"
+  style="display:none;"
+>
+
+  <!-- IMAGE GALLERY -->
+
+  <div
+    id="gallery"
+    class="gallery"
+  ></div>
+
+
+  <!-- PRODUCT CONTENT -->
+
+  <div class="product-content">
+
+    <div
+      id="brand"
+      class="brand"
+    ></div>
+
+
+    <h1
+      id="title"
+      class="title"
+    ></h1>
+
+
+    <!-- RATING -->
+
+    <div
+      id="rating"
+      class="rating"
+    ></div>
+
+
+    <!-- PRICE -->
+
+    <div
+      id="priceBox"
+      class="price-box"
+    ></div>
+
+
+    <!-- DESCRIPTION -->
+
+    <section class="section">
+
+      <h2 class="section-title">
+        Description
+      </h2>
+
+      <div
+        id="description"
+        class="description"
+      ></div>
+
+    </section>
+
+
+    <!-- DETAILS -->
+
+    <section class="section">
+
+      <h2 class="section-title">
+        Product Details
+      </h2>
+
+      <table class="details-table">
+
+        <tbody id="detailsTable"></tbody>
+
+      </table>
+
+    </section>
+
+
+    <!-- WHATSAPP -->
+
+    <section class="enquiry-box">
+
+      <label
+        class="qty-label"
+        for="quantity"
+      >
+        Quantity
+      </label>
+
+      <input
+        id="quantity"
+        class="qty-input"
+        type="number"
+        value="1"
+        min="1"
+        inputmode="numeric"
+      >
+
+      <button
+        id="whatsappButton"
+        class="whatsapp-button"
+        type="button"
+      >
+        Enquire on WhatsApp
+      </button>
+
+    </section>
+
+  </div>
+
+</div>
+
+
+<!-- ERROR -->
+
+<div
+  id="error"
+  class="error"
+  style="display:none;"
+>
+
+  <h2>
+    Product not found
+  </h2>
+
+  <p>
+    Please return to the catalogue and select a product.
+  </p>
+
+</div>
+
+  </main>  <script>
+
+    const WHATSAPP_NUMBER = "918268321227";
+
+    let currentProduct = null;
+
+
+    /*
+      GET PRODUCT ID FROM URL
+
+      Example:
+
+      product-details.html?id=NK-CHR2060
+    */
+
+    const urlParams =
+      new URLSearchParams(
+        window.location.search
+      );
+
+    const productId =
+      urlParams.get("id");
+
+
+    /*
+      LOAD JSON
+    */
+
+    async function loadProduct() {
+
+      try {
+
+        if (!productId) {
+
+          showError();
+
+          return;
+
+        }
+
+
+        const response =
+          await fetch("product.json");
+
+
+        if (!response.ok) {
+
+          throw new Error(
+            "product.json not found"
+          );
+
+        }
+
+
+        const data =
+          await response.json();
+
+
+        const product =
+          data.products.find(
+            item =>
+              item.id === productId
+          );
+
+
+        if (!product) {
+
+          showError();
+
+          return;
+
+        }
+
+
+        currentProduct = product;
+
+        displayProduct(product);
+
+
+      } catch (error) {
+
+        console.error(error);
+
+        showError();
+
+      }
+
+    }
+
+
+    /*
+      DISPLAY PRODUCT
+    */
+
+    function displayProduct(product) {
+
+
+      document.title =
+        product.title +
+        " | SHREE SHIVSHAKTI ENTERPRISES";
+
+
+      /*
+        BRAND
+      */
+
+      document.getElementById("brand")
+        .textContent =
+          product.brand || "";
+
+
+      /*
+        TITLE
+      */
+
+      document.getElementById("title")
+        .textContent =
+          product.title || "";
+
+
+      /*
+        IMAGES
+      */
+
+      const gallery =
+        document.getElementById("gallery");
+
+      gallery.innerHTML = "";
+
+
+      if (
+        product.images &&
+        product.images.length
+      ) {
+
+        product.images.forEach(
+          (imageUrl, index) => {
+
+            const image =
+              document.createElement("img");
+
+            image.className =
+              "gallery-image";
+
+            image.src =
+              imageUrl;
+
+            image.alt =
+              product.title +
+              " - Image " +
+              (index + 1);
+
+            image.loading =
+              index === 0
+                ? "eager"
+                : "lazy";
+
+            gallery.appendChild(image);
+
+          }
+        );
+
+      }
+
+
+      /*
+        RATING
+      */
+
+      const ratingElement =
+        document.getElementById("rating");
+
+      const rating =
+        product.review?.reviewStars;
+
+      const reviewCount =
+        product.review?.reviewCount || 0;
+
+
+      if (rating) {
+
+        const rounded =
+          Math.round(rating);
+
+        const stars =
+          "★".repeat(rounded) +
+          "☆".repeat(5 - rounded);
+
+        ratingElement.innerHTML = `
+
+          <span class="stars">
+            ${stars}
+          </span>
+
+          <strong>
+            ${rating}
+          </strong>
+
+          <span class="review-count">
+            (${reviewCount} reviews)
+          </span>
+
+        `;
+
+      } else {
+
+        ratingElement.innerHTML = `
+
+          <span class="stars">
+            ★★★★★
+          </span>
+
+          <span class="review-count">
+            ${reviewCount} reviews
+          </span>
+
+        `;
+
+      }
+
+
+      /*
+        PRICE
+      */
+
+      const priceBox =
+        document.getElementById("priceBox");
+
+
+      const mrp =
+        Number(product.mrp || 0);
+
+      const salePrice =
+        Number(
+          product.discountPrice ||
+          product.mrp ||
+          0
+        );
+
+      const discount =
+        product.discountPercentage;
+
+
+      priceBox.innerHTML = `
+
+        <div class="mrp">
+
+          MRP:
+          <span class="mrp-value">
+            ₹${mrp.toLocaleString("en-IN")}
+          </span>
+
+        </div>
+
+        <div class="sale-price">
+
+          ₹${salePrice.toLocaleString("en-IN")}
+
+        </div>
+
+        ${
+          discount
+          ?
+          `
+            <span class="discount">
+              ${discount}% OFF
+            </span>
+          `
+          :
+          ""
+        }
+
+      `;
+
+
+      /*
+        DESCRIPTION
+
+        HTML from JSON is rendered directly.
+      */
+
+      document.getElementById("description")
+        .innerHTML =
+          product.description || "";
+
+
+      /*
+        PRODUCT DETAILS
+      */
+
+      const details =
+        product.productDetails || {};
+
+
+      const rows = [
+
+        [
+          "Material",
+          details.material
+        ],
+
+        [
+          "Model",
+          details.model
+        ],
+
+        [
+          "Color",
+          details.color
+        ],
+
+        [
+          "Warranty",
+          details.warranty
+        ],
+
+        [
+          "DIY",
+          details.diy
+            ? "Yes"
+            : "No"
+        ],
+
+        [
+          "Dimensions",
+          product.dimensions
+        ],
+
+        [
+          "Brand",
+          product.brand
+        ],
+
+        [
+          "Category",
+          product.category
+        ]
+
+      ];
+
+
+      const table =
+        document.getElementById(
+          "detailsTable"
+        );
+
+
+      table.innerHTML = "";
+
+
+      rows.forEach(
+        ([label, value]) => {
+
+          if (
+            value === undefined ||
+            value === null ||
+            value === ""
+          ) {
+            return;
+          }
+
+
+          const row =
+            document.createElement("tr");
+
+
+          row.innerHTML = `
+
+            <td>
+              ${escapeHTML(label)}
+            </td>
+
+            <td>
+              ${escapeHTML(value)}
+            </td>
+
+          `;
+
+
+          table.appendChild(row);
+
+        }
+      );
+
+
+      /*
+        WHATSAPP
+      */
+
+      document
+        .getElementById(
+          "whatsappButton"
+        )
+        .onclick =
+          sendWhatsAppEnquiry;
+
+
+      /*
+        SHOW PRODUCT
+      */
+
+      document.getElementById(
+        "loading"
+      ).style.display = "none";
+
+
+      document.getElementById(
+        "productBox"
+      ).style.display = "grid";
+
+    }
+
+
+    /*
+      WHATSAPP ENQUIRY
+    */
+
+    function sendWhatsAppEnquiry() {
+
+      const quantity =
+        parseInt(
+          document.getElementById(
+            "quantity"
+          ).value
+        );
+
+
+      if (
+        !quantity ||
+        quantity < 1
+      ) {
+
+        alert(
+          "Please enter a valid quantity."
+        );
+
+        return;
+
+      }
+
+
+      const product =
+        currentProduct;
+
+
+      const image =
+        product.images?.[0] || "";
+
+
+      const salePrice =
+        product.discountPrice
+          ? "₹" +
+            Number(
+              product.discountPrice
+            ).toLocaleString("en-IN")
+          : "Please confirm";
+
+
+      const message =
+
+`Hello SHREE SHIVSHAKTI ENTERPRISES,
+
+I want to enquire about this product.
+
+Product: ${product.title}
+
+Brand: ${product.brand || "N/A"}
+
+Quantity: ${quantity}
+
+Sale Price: ${salePrice}
+
+Product Image:
+${image}
+
+Product Page:
+${window.location.href}
+
+Please share the latest price and availability.`;
+
+
+      const whatsappURL =
+        "https://wa.me/" +
+        WHATSAPP_NUMBER +
+        "?text=" +
+        encodeURIComponent(message);
+
+
+      window.open(
+        whatsappURL,
+        "_blank"
+      );
+
+    }
+
+
+    /*
+      ERROR
+    */
+
+    function showError() {
+
+      document.getElementById(
+        "loading"
+      ).style.display = "none";
+
+
+      document.getElementById(
+        "productBox"
+      ).style.display = "none";
+
+
+      document.getElementById(
+        "error"
+      ).style.display = "block";
+
+    }
+
+
+    /*
+      ESCAPE TEXT
+    */
+
+    function escapeHTML(text) {
+
+      return String(text)
+
+        .replace(
+          /&/g,
+          "&amp;"
+        )
+
+        .replace(
+          /</g,
+          "&lt;"
+        )
+
+        .replace(
+          />/g,
+          "&gt;"
+        )
+
+        .replace(
+          /"/g,
+          "&quot;"
+        )
+
+        .replace(
+          /'/g,
+          "&#039;"
+        );
+
+    }
+
+
+    /*
+      START
+    */
+
+    loadProduct();
+
+  </script></body></html>
