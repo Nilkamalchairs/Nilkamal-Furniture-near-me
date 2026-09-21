@@ -1,0 +1,404 @@
+{
+"products": [
+{
+"id": "NK-CHR2060",
+"title": "Nilkamal CHR2060 Plastic Arm Chair",
+"category": "Chairs",
+"brand": "Nilkamal",
+"sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-chr-2060-mid-back-chair-with-arm-marble-beige",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/products/CHR2060MBG_400x.jpg?v=1767249137",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/CHR2060MBG_81ab0eeb-4868-4d7b-ac5c-51e311f56354_400x.jpg?v=1767249137",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/4_400x.jpg?v=1767249137",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/NilkamalCHR2060MidBackChairWithArmcataloguec_400x.jpg?v=1767249137"
+  ],
+
+  "description": "<p>Nilkamal CHR2060 is a durable plastic arm chair designed for comfortable everyday seating.</p><ul><li>Virgin plastic construction</li><li>Supportive armrests</li><li>125 kg load capacity</li><li>Suitable for home, office and outdoor use</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": false,
+
+  "mrp": 1400,
+  "discountPrice": 1040,
+  "discountPercentage": 25,
+
+  "dimensions": "W 58 × D 62 × H 80 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "CHR2060",
+    "color": "Marble Beige",
+    "warranty": "3 Years",
+    "diy": false
+  },
+
+  "review": {
+    "reviewCount": 49,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-MYSTIQUE",
+  "title": "Nilkamal Mystique Plastic Arm Chair",
+  "category": "Chairs",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-mystique-chair-season-rust-brown?variant=39701524709465",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/MYSTIQUESRB_514b27a5-e25d-4faf-91a7-f358651bc589_400x.webp?v=1753427209",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/MYSTIQUESRB_400x.webp?v=1753427223",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/MYSTIQUESRB_01_400x.webp?v=1753427236",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/MYSTIQUESRB_02_400x.webp?v=1753427250"
+  ],
+
+  "description": "<p>Nilkamal Mystique is a modern plastic arm chair with a comfortable ergonomic design and matte finish.</p><ul><li>Virgin plastic construction</li><li>125 kg load capacity</li><li>Comfortable armrests</li><li>Suitable for home, office, cafe and outdoor use</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": true,
+
+  "mrp": 1900,
+  "discountPrice": 1470,
+  "discountPercentage": 22,
+
+  "dimensions": "W 57 × D 60.7 × H 90 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "Mystique",
+    "color": "Season Rust Brown",
+    "warranty": "3 Years",
+    "diy": false
+  },
+
+  "review": {
+    "reviewCount": 126,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-CHR4002",
+  "title": "Nilkamal CHR4002 Plastic Armless Chair",
+  "category": "Chairs",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-chr-4002-armless-chair-baby-blue",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/CHR4002MBG_5f8be54a-b223-438d-a9d3-ceb8d1c3c965_400x.jpg?v=1691987280",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/CHR4002MBG_400x.jpg?v=1691987280",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/lifestyle_2_9833dfb0-ff5e-410a-8888-5c1578933bbc_400x.jpg?v=1691987280",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/lifestyle_3_cc5ea364-2a92-4a30-9eda-3570d52c3d5e_400x.jpg?v=1691987280"
+  ],
+
+  "description": "<p>Nilkamal CHR4002 is a durable armless plastic chair with a simple and practical design.</p><ul><li>Virgin plastic body</li><li>110 kg load capacity</li><li>Glossy finish</li><li>Suitable for home, office, cafe and outdoor use</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": true,
+
+  "mrp": 1300,
+  "discountPrice": 980,
+  "discountPercentage": 24,
+
+  "dimensions": "W 47 × D 51 × H 89 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "CHR4002",
+    "color": "Marble Beige",
+    "warranty": "3 Years",
+    "diy": false
+  },
+
+  "review": {
+    "reviewCount": 10,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-HERITAGE",
+  "title": "Nilkamal Heritage Plastic Arm Chair",
+  "category": "Chairs",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-heritage-chair-marble-beige",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/HERITAGEMBG_68e03b1c-59e5-414d-ac4a-e7778d9bc26a_400x.webp?v=1753436574",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/HERITAGEMBG_400x.webp?v=1753436574",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/NilkamalHeritageChair_MarbleBeige_3_400x.webp?v=1753436574",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/NilkamalHeritageChair_MarbleBeige_2_400x.webp?v=1753436574"
+  ],
+
+  "description": "<p>Nilkamal Heritage is a modern plastic arm chair with a classic design and comfortable seating.</p><ul><li>Virgin plastic construction</li><li>125 kg load capacity</li><li>Glossy poly-marble finish</li><li>Suitable for home, office, cafe and outdoor use</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": false,
+
+  "mrp": 2500,
+  "discountPrice": 1900,
+  "discountPercentage": 24,
+
+  "dimensions": "W 57.2 × D 65.7 × H 90 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "Heritage",
+    "color": "Marble Beige",
+    "warranty": "3 Years",
+    "diy": false
+  },
+
+  "review": {
+    "reviewCount": 15,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-CHR2101",
+  "title": "Nilkamal CHR2101 Plastic Arm Chair",
+  "category": "Chairs",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-mid-back-chair-chr2101-marble-beige-chr2101mbg",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/CHR2101PYEL_400x.jpg?v=1694598471",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/CHR2101MBG_8463691f-5a30-4759-bb14-f71c54b92d6d_400x.jpg?v=1730893154",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/lifestyle03_4e63a826-6138-460e-a29b-030d06e13753_400x.jpg?v=1694598471",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/lifestyle02_be22a1fe-1f77-4df6-9999-8baf81d21874_400x.jpg?v=1694598471"
+  ],
+
+  "description": "<p>Nilkamal CHR2101 is an ergonomic plastic arm chair designed for comfortable everyday seating.</p><ul><li>Premium plastic construction</li><li>125 kg load capacity</li><li>Supportive armrests</li><li>Gloss finish</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": true,
+
+  "mrp": 1500,
+  "discountPrice": 1130,
+  "discountPercentage": 24,
+
+  "dimensions": "W 56 × D 61 × H 78 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "CHR2101",
+    "color": "Marble Beige",
+    "warranty": "3 Years",
+    "diy": false
+  },
+
+  "review": {
+    "reviewCount": 28,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-CHR2209",
+  "title": "Nilkamal CHR2209 Plastic Arm Chair",
+  "category": "Chairs",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-chr2209-plastic-chair-with-arm-marble-beige?variant=39707441627225",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/CHR2209MBG_400x.jpg?v=1731409652",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/CHR2209MBG_400x.jpg?v=1660978086",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/CHR2209MBG_01_400x.jpg?v=1660978086",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/CHR2209MBG_400x.jpg?v=1731409652"
+  ],
+
+  "description": "<p>Nilkamal CHR2209 is a sturdy plastic arm chair with a comfortable ergonomic design and glossy finish.</p><ul><li>Durable plastic construction</li><li>Supportive armrests</li><li>Glossy finish</li><li>Suitable for home, office, cafe and outdoor use</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": true,
+
+  "mrp": 2000,
+  "discountPrice": 1530,
+  "discountPercentage": 23,
+
+  "dimensions": "W 57 × D 61.5 × H 85 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "CHR2209",
+    "color": "Marble Beige",
+    "warranty": "3 Years",
+    "diy": false
+  },
+
+  "review": {
+    "reviewCount": 12,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-FMM",
+  "title": "Nilkamal Freedom Mini Medium (FMM) Plastic Storage Cabinet",
+  "category": "Cabinet & Storage",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-freedom-mini-mediu-wbn-d-bst-o-p-h-d-st-fmmwbn-bst-bst-bst",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/products/FMMWBNBSTBSTBST_01_400x.jpg?v=1636450805",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/FMMWBNBSTBSTBST_02_400x.jpg?v=1772082704",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/61OyuQZ9PiL._SL1200_400x.jpg?v=1772082704",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FMMWBN_BST_BST_BST_400x.jpg?v=1772082704"
+  ],
+
+  "description": "<p>Nilkamal Freedom Mini Medium is a spacious plastic storage cabinet suitable for organising books, clothes and household items.</p><ul><li>Adjustable shelves</li><li>Safety lock and tower bolt</li><li>Lightweight plastic construction</li><li>Easy to assemble</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": false,
+
+  "mrp": 9400,
+  "discountPrice": 7010,
+  "discountPercentage": 25,
+
+  "dimensions": "W 59.5 × D 35.5 × H 123 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "Freedom Mini Medium (FMM)",
+    "color": "Weathered Brown / Biscuit",
+    "warranty": "3 Years",
+    "diy": true
+  },
+
+  "review": {
+    "reviewCount": 55,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-FML",
+  "title": "Nilkamal Freedom Mini Large (FML) Plastic Storage Cabinet",
+  "category": "Cabinet & Storage",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-freedom-mini-large-wbn-d-bst-o-p-bst-h-b-fmlwbn-bst-bst-bst",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FMLWBN_BST_BST_BST_7c96defc-450f-4fc6-9a3a-a8e2f40db853_400x.jpg?v=1752058288",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FMLWBN_BST_BST_BST_400x.jpg?v=1752058288",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FREEDOMCABINET02_400x.jpg?v=1752058288",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/FMLWBNBSTBSTBST_01_400x.jpg?v=1752058288"
+  ],
+
+  "description": "<p>Nilkamal Freedom Mini Large is a tall plastic storage cabinet designed for organised household storage.</p><ul><li>Multiple shelves</li><li>Safety lock</li><li>Lightweight knockdown construction</li><li>Modern contemporary design</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": true,
+
+  "mrp": 12700,
+  "discountPrice": 9780,
+  "discountPercentage": 22,
+
+  "dimensions": "W 59 × D 35 × H 182.5 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "Freedom Mini Large (FML)",
+    "color": "Weathered Brown / Biscuit",
+    "warranty": "3 Years",
+    "diy": true
+  },
+
+  "review": {
+    "reviewCount": 51,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-FB1",
+  "title": "Nilkamal Freedom Big 1 (FB1) Plastic Storage Cabinet",
+  "category": "Cabinet & Storage",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-freedom-big-1-fb1-plastic-storage-cabinet-weathered-brown-and-biscuit-fb1wbn-bst-bst-bst",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FB1WBN-BST-BST-BST_18c36716-3ca5-4e06-b194-f50355a296c2_400x.webp?v=1753269265",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FB1WBN-BST-BST-BST_400x.webp?v=1753269278",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FB1WBNBSTBSTBST_LF_400x.webp?v=1753269291",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FB1WBN-BST-BST-BST_18c36716-3ca5-4e06-b194-f50355a296c2_400x.webp?v=1753269265"
+  ],
+
+  "description": "<p>Nilkamal Freedom Big 1 is a large double-door plastic storage cabinet with spacious compartments for household storage.</p><ul><li>Three shelves</li><li>Safety lock and tower bolt</li><li>Knockdown construction</li><li>Lightweight virgin polymer construction</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": true,
+
+  "mrp": 18800,
+  "discountPrice": 14670,
+  "discountPercentage": 21,
+
+  "dimensions": "W 71 × D 53 × H 180 cm",
+
+  "productDetails": {
+    "material": "Plastic",
+    "model": "Freedom Big 1 (FB1)",
+    "color": "Weathered Brown / Biscuit",
+    "warranty": "3 Years",
+    "diy": true
+  },
+
+  "review": {
+    "reviewCount": 50,
+    "reviewStars": null
+  }
+},
+
+{
+  "id": "NK-FB1M",
+  "title": "Nilkamal Freedom Big 1 (FB1M) Plastic Storage Cabinet with Mirror",
+  "category": "Cabinet & Storage",
+  "brand": "Nilkamal",
+  "sourceUrl": "https://www.nilkamalfurniture.com/products/nilkamal-freedom-big-1-fb1m-plastic-storage-cabinet-with-mirror-deep-blue-grey-fb1mdbl-gry",
+
+  "images": [
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FB1MDBL-GRY_400x.jpg?v=1731409888",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/FB1MDBL_GRY_00_400x.jpg?v=1680850197",
+    "https://www.nilkamalfurniture.com/cdn/shop/products/FB1MDBLGRY_400x.jpg?v=1680850197",
+    "https://www.nilkamalfurniture.com/cdn/shop/files/FB1MDBL-GRY_400x.jpg?v=1731409888"
+  ],
+
+  "description": "<p>Nilkamal Freedom Big 1 Mirror is a large plastic storage cabinet with a built-in mirror and spacious compartments.</p><ul><li>Three shelves</li><li>Safety lock and tower bolt</li><li>Knockdown construction</li><li>Glass mirror</li><li>Modern contemporary design</li></ul>",
+
+  "sale": true,
+  "discount": true,
+  "hotSale": false,
+
+  "mrp": 19500,
+  "discountPrice": 15220,
+  "discountPercentage": 21,
+
+  "dimensions": "W 71 × D 53.5 × H 180 cm",
+
+  "productDetails": {
+    "material": "Plastic & Glass Mirror",
+    "model": "Freedom Big 1 Mirror (FB1M)",
+    "color": "Deep Blue / Grey",
+    "warranty": "3 Years",
+    "diy": true
+  },
+
+  "review": {
+    "reviewCount": 6,
+    "reviewStars": null
+  }
+}
+
+]
+}
