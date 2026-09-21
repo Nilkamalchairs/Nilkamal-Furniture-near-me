@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Nilkamal Furniture Catalogue in Thane | SHREE SHIVSHAKTI ENTERPRISES
+  </title>
+
+  <meta
+    name="description"
+    content="Browse Nilkamal furniture, Nilkamal chairs, plastic chairs, tables, cabinets, folding furniture and steel furniture from SHREE SHIVSHAKTI ENTERPRISES in Thane."
+  >
+
+  <meta
+    name="keywords"
+    content="Nilkamal, Nilkamal furniture, Nilkamal chair, Nilkamal chairs Thane, Nilkamal furniture Thane, plastic chair Thane, furniture catalogue Thane"
+  >
+
+  <meta
+    name="robots"
+    content="index, follow"
+  >
+
+  <link
+    rel="canonical"
+    href="https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html"
+  >
+
+
+  <style>
+
+    /* =========================
+       RESET
+    ========================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f6f6;
+      color: #222;
+      line-height: 1.5;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      background: #111;
+      color: #fff;
+
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .header-inner {
+      width: min(1100px, 92%);
+      margin: auto;
+
+      min-height: 60px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .home-link {
+      font-size: 14px;
+      color: #fff;
+    }
+
+
+    /* =========================
+       MAIN CONTAINER
+    ========================= */
+
+    .container {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+      padding: 40px 0 25px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #666;
+      font-size: 15px;
+    }
+
+
+    /* =========================
+       SEARCH
+    ========================= */
+
+    .search-box {
+      margin: 25px auto 15px;
+      max-width: 650px;
+    }
+
+    .search-box input {
+      width: 100%;
+
+      padding: 14px 17px;
+
+      border: 1px solid #ddd;
+      border-radius: 9px;
+
+      background: #fff;
+
+      outline: none;
+      font-size: 15px;
+    }
+
+    .search-box input:focus {
+      border-color: #111;
+    }
+
+
+    /* =========================
+       CATEGORY FILTER
+    ========================= */
+
+    .filters {
+      display: flex;
+      gap: 8px;
+
+      overflow-x: auto;
+
+      padding: 5px 0 15px;
+
+      scrollbar-width: none;
+    }
+
+    .filters::-webkit-scrollbar {
+      display: none;
+    }
+
+    .filter-btn {
+      flex: 0 0 auto;
+
+      padding: 9px 15px;
+
+      border: 1px solid #ddd;
+      border-radius: 30px;
+
+      background: #fff;
+      color: #333;
+
+      cursor: pointer;
+
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .filter-btn.active {
+      background: #111;
+      color: #fff;
+      border-color: #111;
+    }
+
+
+    /* =========================
+       CATALOGUE
+    ========================= */
+
+    .catalogue {
+      padding: 25px 0 50px;
+    }
+
+    .product-grid {
+      display: grid;
+
+      grid-template-columns: repeat(4, 1fr);
+
+      gap: 18px;
+    }
+
+
+    /* =========================
+       PRODUCT CARD
+    ========================= */
+
+    .product-card {
+      background: #fff;
+
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+
+      overflow: hidden;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-3px);
+
+      box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .product-image {
+      aspect-ratio: 1 / 1;
+
+      background: #f1f1f1;
+
+      overflow: hidden;
+    }
+
+    .product-image img {
+      width: 100%;
+      height: 100%;
+
+      object-fit: contain;
+
+      transition: transform 0.2s ease;
+    }
+
+    .product-card:hover .product-image img {
+      transform: scale(1.03);
+    }
+
+
+    /* =========================
+       PRODUCT DETAILS
+    ========================= */
+
+    .product-info {
+      padding: 14px;
+    }
+
+    .product-brand {
+      color: #777;
+
+      font-size: 11px;
+
+      text-transform: uppercase;
+
+      letter-spacing: 0.5px;
+    }
+
+    .product-name {
+      margin-top: 3px;
+
+      font-size: 16px;
+
+      line-height: 1.3;
+    }
+
+    .product-description {
+      margin-top: 6px;
+
+      color: #666;
+
+      font-size: 12px;
+
+      min-height: 36px;
+    }
+
+    .product-price {
+      margin-top: 10px;
+
+      font-size: 18px;
+
+      font-weight: 700;
+    }
+
+    .price-note {
+      color: #777;
+      font-size: 11px;
+      font-weight: normal;
+    }
+
+
+    /* =========================
+       QUANTITY
+    ========================= */
+
+    .quantity-row {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 8px;
+
+      margin-top: 12px;
+    }
+
+    .quantity-row label {
+      font-size: 12px;
+      color: #555;
+    }
+
+    .quantity {
+      width: 65px;
+
+      padding: 7px;
+
+      border: 1px solid #ddd;
+      border-radius: 6px;
+
+      text-align: center;
+    }
+
+
+    /* =========================
+       ENQUIRY BUTTON
+    ========================= */
+
+    .enquiry-btn {
+      width: 100%;
+
+      margin-top: 10px;
+
+      padding: 10px;
+
+      border: 0;
+      border-radius: 7px;
+
+      background: #168a45;
+      color: #fff;
+
+      cursor: pointer;
+
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .enquiry-btn.selected {
+      background: #111;
+    }
+
+
+    /* =========================
+       NO PRODUCTS
+    ========================= */
+
+    .no-products {
+      display: none;
+
+      padding: 40px;
+
+      text-align: center;
+
+      color: #777;
+    }
+
+
+    /* =========================
+       FLOATING ENQUIRY BAR
+    ========================= */
+
+    .enquiry-bar {
+      position: fixed;
+
+      left: 50%;
+      bottom: 15px;
+
+      transform: translateX(-50%);
+
+      width: min(600px, 92%);
+
+      padding: 10px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 10px;
+
+      background: #111;
+      color: #fff;
+
+      border-radius: 12px;
+
+      box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.3);
+
+      z-index: 2000;
+    }
+
+    .enquiry-count {
+      font-size: 13px;
+    }
+
+    .whatsapp-btn {
+      border: 0;
+
+      padding: 10px 15px;
+
+      border-radius: 7px;
+
+      background: #25d366;
+      color: #fff;
+
+      cursor: pointer;
+
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+      padding: 35px 15px 90px;
+
+      background: #111;
+
+      color: #fff;
+
+      text-align: center;
+
+      font-size: 13px;
+    }
+
+    footer p {
+      margin-top: 5px;
+      color: #aaa;
+    }
+
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 800px) {
+
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+
+      .product-info {
+        padding: 11px;
+      }
+
+      .product-name {
+        font-size: 14px;
+      }
+
+      .product-price {
+        font-size: 16px;
+      }
+
+    }
+
+
+    @media (max-width: 450px) {
+
+      .logo {
+        font-size: 13px;
+      }
+
+      .home-link {
+        font-size: 12px;
+      }
+
+      .hero {
+        padding-top: 30px;
+      }
+
+      .product-grid {
+        gap: 9px;
+      }
+
+      .product-description {
+        font-size: 11px;
+      }
+
+      .enquiry-bar {
+        bottom: 10px;
+      }
+
+    }
+
+  </style>
+
+
+  <!-- =========================
+       PRODUCT SCHEMA
+  ========================= -->
+
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Nilkamal Furniture Catalogue in Thane",
+    "description": "Furniture catalogue of SHREE SHIVSHAKTI ENTERPRISES featuring Nilkamal furniture, Nilkamal chairs, plastic chairs, tables, cabinets and folding furniture.",
+    "url": "https://nilkamalchairs.github.io/Nilkamal-Furniture-near-me/products.html"
+  }
+
+  </script>
+
+</head>
+
+
+<body>
+
+
+  <!-- =========================
+       HEADER
+  ========================= -->
+
+  <header>
+
+    <div class="header-inner">
+
+      <a
+        href="index.html"
+        class="logo"
+      >
+        SHREE SHIVSHAKTI ENTERPRISES
+      </a>
+
+      <a
+        href="index.html"
+        class="home-link"
+      >
+        Home
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================= -->
+
+  <section class="hero">
+
+    <div class="container">
+
+      <h1>
+        Nilkamal Furniture Catalogue in Thane
+      </h1>
+
+      <p>
+        Browse Nilkamal furniture, Nilkamal chairs, plastic chairs,
+        tables, cabinets, folding furniture and steel furniture.
+        Select products and send your enquiry directly on WhatsApp.
+      </p>
+
+
+      <!-- SEARCH -->
+
+      <div class="search-box">
+
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search Nilkamal chair, table, cabinet..."
+          aria-label="Search furniture"
+        >
+
+      </div>
+
+
+      <!-- FILTERS -->
+
+      <div class="filters">
+
+        <button
+          class="filter-btn active"
+          data-category="all"
+        >
+          All
+        </button>
+
+        <button
+          class="filter-btn"
+          data-category="chair"
+        >
+          Chairs
+        </button>
+
+        <button
+          class="filter-btn"
+          data-category="table"
+        >
+          Tables
+        </button>
+
+        <button
+          class="filter-btn"
+          data-category="cabinet"
+        >
+          Cabinets
+        </button>
+
+        <button
+          class="filter-btn"
+          data-category="folding"
+        >
+          Folding
+        </button>
+
+        <button
+          class="filter-btn"
+          data-category="steel"
+        >
+          Steel
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PRODUCTS
+  ========================= -->
+
+  <main class="catalogue">
+
+    <div class="container">
+
+      <div
+        class="product-grid"
+        id="productGrid"
+      >
+
+
+        <!-- PRODUCT 1 -->
+
+        <article
+          class="product-card"
+          data-category="chair"
+          data-name="Nilkamal Chair"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="images/products/nilkamal-chair.webp"
+              alt="Nilkamal Chair in Thane"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div class="product-info">
+
+            <div class="product-brand">
+              Nilkamal
+            </div>
+
+            <h2 class="product-name">
+              Nilkamal Chair
+            </h2>
+
+            <p class="product-description">
+              Durable Nilkamal plastic chair for home,
+              office and commercial use.
+            </p>
+
+            <div class="product-price">
+              ₹1,290
+              <span class="price-note">
+                onwards
+              </span>
+            </div>
+
+
+            <div class="quantity-row">
+
+              <label>
+                Qty
+              </label>
+
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+              >
+
+            </div>
+
+
+            <button
+              class="enquiry-btn"
+              type="button"
+            >
+              Add to Enquiry
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+
+        <article
+          class="product-card"
+          data-category="chair"
+          data-name="Nilkamal Plastic Chair"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="images/products/nilkamal-plastic-chair.webp"
+              alt="Nilkamal Plastic Chair Thane"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div class="product-info">
+
+            <div class="product-brand">
+              Nilkamal
+            </div>
+
+            <h2 class="product-name">
+              Nilkamal Plastic Chair
+            </h2>
+
+            <p class="product-description">
+              Strong plastic chair suitable for homes,
+              offices, shops and events.
+            </p>
+
+            <div class="product-price">
+              ₹1,290
+              <span class="price-note">
+                onwards
+              </span>
+            </div>
+
+
+            <div class="quantity-row">
+
+              <label>
+                Qty
+              </label>
+
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+              >
+
+            </div>
+
+
+            <button
+              class="enquiry-btn"
+              type="button"
+            >
+              Add to Enquiry
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+
+        <article
+          class="product-card"
+          data-category="cabinet"
+          data-name="Nilkamal Cabinet"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="images/products/nilkamal-cabinet.webp"
+              alt="Nilkamal Cabinet Thane"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div class="product-info">
+
+            <div class="product-brand">
+              Nilkamal
+            </div>
+
+            <h2 class="product-name">
+              Nilkamal Cabinet
+            </h2>
+
+            <p class="product-description">
+              Practical Nilkamal storage cabinet for
+              home and office use.
+            </p>
+
+            <div class="product-price">
+              ₹2,999
+              <span class="price-note">
+                onwards
+              </span>
+            </div>
+
+
+            <div class="quantity-row">
+
+              <label>
+                Qty
+              </label>
+
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+              >
+
+            </div>
+
+
+            <button
+              class="enquiry-btn"
+              type="button"
+            >
+              Add to Enquiry
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+
+        <article
+          class="product-card"
+          data-category="table"
+          data-name="Plastic Table"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="images/products/plastic-table.webp"
+              alt="Plastic Furniture Table Thane"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div class="product-info">
+
+            <div class="product-brand">
+              Plastic Furniture
+            </div>
+
+            <h2 class="product-name">
+              Plastic Table
+            </h2>
+
+            <p class="product-description">
+              Heavy-duty plastic table for home,
+              events and commercial use.
+            </p>
+
+            <div class="product-price">
+              ₹1,200
+              <span class="price-note">
+                onwards
+              </span>
+            </div>
+
+
+            <div class="quantity-row">
+
+              <label>
+                Qty
+              </label>
+
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+              >
+
+            </div>
+
+
+            <button
+              class="enquiry-btn"
+              type="button"
+            >
+              Add to Enquiry
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 5 -->
+
+        <article
+          class="product-card"
+          data-category="folding"
+          data-name="Plastic Folding Table"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="images/products/plastic-folding-table.webp"
+              alt="Plastic Folding Table Thane"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div class="product-info">
+
+            <div class="product-brand">
+              Folding Furniture
+            </div>
+
+            <h2 class="product-name">
+              Plastic Folding Table
+            </h2>
+
+            <p class="product-description">
+              Space-saving folding table for homes,
+              offices and events.
+            </p>
+
+            <div class="product-price">
+              ₹1,750
+              <span class="price-note">
+                onwards
+              </span>
+            </div>
+
+
+            <div class="quantity-row">
+
+              <label>
+                Qty
+              </label>
+
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+              >
+
+            </div>
+
+
+            <button
+              class="enquiry-btn"
+              type="button"
+            >
+              Add to Enquiry
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 6 -->
+
+        <article
+          class="product-card"
+          data-category="folding"
+          data-name="Wooden Folding Table"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="images/products/wooden-folding-table.webp"
+              alt="Wooden Folding Table Thane"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div class="product-info">
+
+            <div class="product-brand">
+              Folding Furniture
+            </div>
+
+            <h2 class="product-name">
+              Wooden Folding Table
+            </h2>
+
+            <p class="product-description">
+              Folding wooden table suitable for home,
+              office and commercial requirements.
+            </p>
+
+            <div class="product-price">
+              ₹1,450
+              <span class="price-note">
+                onwards
+              </span>
+            </div>
+
+
+            <div class="quantity-row">
+
+              <label>
+                Qty
+              </label>
+
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+              >
+
+            </div>
+
+
+            <button
+              class="enquiry-btn"
+              type="button"
+            >
+              Add to Enquiry
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 7 -->
+
+        <article
+          class="product-card"
+          data-category="steel"
+          data-name="Steel Cupboard"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="images/products/steel-cupboard.webp"
+              alt="Steel Cupboard Thane"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div class="product-info">
+
+            <div class="product-brand">
+              Steel Furniture
+            </div>
+
+            <h2 class="product-name">
+              Steel Cupboard
+            </h2>
+
+            <p class="product-description">
+              Strong steel storage cupboard for office,
+              home and commercial use.
+            </p>
+
+            <div class="product-price">
+              ₹4,750
+              <span c
